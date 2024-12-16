@@ -1,0 +1,806 @@
+2024-12-16 22:23:15.826 +05:00 [DBG] Hosting starting
+2024-12-16 22:23:15.959 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:23:15.960 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:23:15.962 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:23:15.963 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:23:15.963 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:23:15.964 +05:00 [DBG] Hosting started
+2024-12-16 22:23:18.557 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" accepted.
+2024-12-16 22:23:18.559 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" started.
+2024-12-16 22:23:18.559 +05:00 [DBG] Connection id "0HN8TUPAJLV0V" accepted.
+2024-12-16 22:23:18.561 +05:00 [DBG] Connection id "0HN8TUPAJLV0V" started.
+2024-12-16 22:23:18.595 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:23:18.600 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:23:18.639 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:23:18.640 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:18.722 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" completed keep alive response.
+2024-12-16 22:23:18.725 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 131.8949ms
+2024-12-16 22:23:18.747 +05:00 [DBG] Connection id "0HN8TUPAJLV10" accepted.
+2024-12-16 22:23:18.748 +05:00 [DBG] Connection id "0HN8TUPAJLV10" started.
+2024-12-16 22:23:18.748 +05:00 [DBG] Connection id "0HN8TUPAJLV11" accepted.
+2024-12-16 22:23:18.750 +05:00 [DBG] Connection id "0HN8TUPAJLV11" started.
+2024-12-16 22:23:18.750 +05:00 [DBG] Connection id "0HN8TUPAJLV12" accepted.
+2024-12-16 22:23:18.750 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger-ui.css - null null
+2024-12-16 22:23:18.750 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger-ui-bundle.js - null null
+2024-12-16 22:23:18.751 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger-ui-standalone-preset.js - null null
+2024-12-16 22:23:18.751 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.css - null null
+2024-12-16 22:23:18.751 +05:00 [DBG] Connection id "0HN8TUPAJLV12" started.
+2024-12-16 22:23:18.752 +05:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2024-12-16 22:23:18.753 +05:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2024-12-16 22:23:18.755 +05:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2024-12-16 22:23:18.756 +05:00 [DBG] No candidates found for the request path '/index.css'
+2024-12-16 22:23:18.756 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:23:18.757 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:18.757 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:18.758 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:18.758 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:18.759 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:23:18.761 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:18.763 +05:00 [DBG] Connection id "0HN8TUPAJLV12" completed keep alive response.
+2024-12-16 22:23:18.764 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 7.8621ms
+2024-12-16 22:23:18.773 +05:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-12-16 22:23:18.773 +05:00 [INF] The file /index.css was not modified
+2024-12-16 22:23:18.773 +05:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-12-16 22:23:18.773 +05:00 [INF] The file /swagger-ui.css was not modified
+2024-12-16 22:23:18.776 +05:00 [DBG] Handled. Status code: 304 File: /swagger-ui-standalone-preset.js
+2024-12-16 22:23:18.776 +05:00 [DBG] Handled. Status code: 304 File: /swagger-ui-bundle.js
+2024-12-16 22:23:18.776 +05:00 [DBG] Handled. Status code: 304 File: /index.css
+2024-12-16 22:23:18.776 +05:00 [DBG] Handled. Status code: 304 File: /swagger-ui.css
+2024-12-16 22:23:18.777 +05:00 [DBG] Connection id "0HN8TUPAJLV11" completed keep alive response.
+2024-12-16 22:23:18.777 +05:00 [DBG] Connection id "0HN8TUPAJLV0V" completed keep alive response.
+2024-12-16 22:23:18.778 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" completed keep alive response.
+2024-12-16 22:23:18.779 +05:00 [DBG] Connection id "0HN8TUPAJLV10" completed keep alive response.
+2024-12-16 22:23:18.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger-ui-standalone-preset.js - 304 null text/javascript 28.849ms
+2024-12-16 22:23:18.780 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger-ui-bundle.js - 304 null text/javascript 30.0341ms
+2024-12-16 22:23:18.781 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.css - 304 null text/css 29.8968ms
+2024-12-16 22:23:18.781 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger-ui.css - 304 null text/css 31.0697ms
+2024-12-16 22:23:19.010 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:23:19.012 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:23:19.012 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:19.047 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:23:19.094 +05:00 [DBG] Connection id "0HN8TUPAJLV10" completed keep alive response.
+2024-12-16 22:23:19.095 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.1787ms
+2024-12-16 22:23:22.758 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:23:22.760 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:23:22.760 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:22.761 +05:00 [DBG] Connection id "0HN8TUPAJLV10" completed keep alive response.
+2024-12-16 22:23:22.762 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 3.3477ms
+2024-12-16 22:23:22.775 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:23:22.776 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:23:22.777 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:22.778 +05:00 [DBG] Connection id "0HN8TUPAJLV10" completed keep alive response.
+2024-12-16 22:23:22.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 4.0967ms
+2024-12-16 22:23:22.943 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:23:22.944 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:23:22.945 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:22.945 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/favicon-32x32.png - null null
+2024-12-16 22:23:22.947 +05:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2024-12-16 22:23:22.947 +05:00 [DBG] Connection id "0HN8TUPAJLV10" completed keep alive response.
+2024-12-16 22:23:22.948 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:22.949 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.4093ms
+2024-12-16 22:23:22.953 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-16 22:23:22.954 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" completed keep alive response.
+2024-12-16 22:23:22.955 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/favicon-32x32.png - 200 628 image/png 9.5596ms
+2024-12-16 22:23:28.548 +05:00 [INF] Application is shutting down...
+2024-12-16 22:23:28.549 +05:00 [DBG] Hosting stopping
+2024-12-16 22:23:28.553 +05:00 [DBG] Connection id "0HN8TUPAJLV11" disconnecting.
+2024-12-16 22:23:28.553 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" disconnecting.
+2024-12-16 22:23:28.553 +05:00 [DBG] Connection id "0HN8TUPAJLV10" disconnecting.
+2024-12-16 22:23:28.553 +05:00 [DBG] Connection id "0HN8TUPAJLV0V" disconnecting.
+2024-12-16 22:23:28.553 +05:00 [DBG] Connection id "0HN8TUPAJLV12" disconnecting.
+2024-12-16 22:23:28.554 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" stopped.
+2024-12-16 22:23:28.554 +05:00 [DBG] Connection id "0HN8TUPAJLV11" stopped.
+2024-12-16 22:23:28.554 +05:00 [DBG] Connection id "0HN8TUPAJLV10" stopped.
+2024-12-16 22:23:28.555 +05:00 [DBG] Connection id "0HN8TUPAJLV0V" stopped.
+2024-12-16 22:23:28.555 +05:00 [DBG] Connection id "0HN8TUPAJLV12" stopped.
+2024-12-16 22:23:28.557 +05:00 [DBG] Connection id "0HN8TUPAJLV0U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:23:28.557 +05:00 [DBG] Connection id "0HN8TUPAJLV11" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:23:28.557 +05:00 [DBG] Connection id "0HN8TUPAJLV10" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:23:28.558 +05:00 [DBG] Connection id "0HN8TUPAJLV0V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:23:28.558 +05:00 [DBG] Connection id "0HN8TUPAJLV12" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:23:28.563 +05:00 [DBG] Hosting stopped
+2024-12-16 22:23:34.889 +05:00 [DBG] Hosting starting
+2024-12-16 22:23:34.966 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:23:34.968 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:23:34.969 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:23:34.970 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:23:34.970 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:23:34.971 +05:00 [DBG] Hosting started
+2024-12-16 22:23:36.476 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" accepted.
+2024-12-16 22:23:36.483 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" started.
+2024-12-16 22:23:36.485 +05:00 [DBG] Connection id "0HN8TUPFUIDCN" accepted.
+2024-12-16 22:23:36.503 +05:00 [DBG] Connection id "0HN8TUPFUIDCN" started.
+2024-12-16 22:23:36.509 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:23:36.521 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:23:36.551 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:23:36.555 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:36.659 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" completed keep alive response.
+2024-12-16 22:23:36.674 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 166.0291ms
+2024-12-16 22:23:36.704 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:23:36.707 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:23:36.710 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:36.715 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" completed keep alive response.
+2024-12-16 22:23:36.718 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 13.9725ms
+2024-12-16 22:23:36.791 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:23:36.798 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:23:36.799 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:23:36.812 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:23:36.873 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" completed keep alive response.
+2024-12-16 22:23:36.874 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.0703ms
+2024-12-16 22:24:03.251 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/flags - null null
+2024-12-16 22:24:03.252 +05:00 [DBG] No candidates found for the request path '/flags'
+2024-12-16 22:24:03.253 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:24:03.254 +05:00 [DBG] The request path /flags does not match a supported file type
+2024-12-16 22:24:03.255 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" completed keep alive response.
+2024-12-16 22:24:03.256 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/flags - 404 0 null 4.9654ms
+2024-12-16 22:24:03.260 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/flags, Response status code: 404
+2024-12-16 22:24:38.206 +05:00 [DBG] Connection id "0HN8TUPFUIDCN" received FIN.
+2024-12-16 22:24:38.210 +05:00 [DBG] Connection id "0HN8TUPFUIDCN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:24:38.211 +05:00 [DBG] Connection id "0HN8TUPFUIDCN" disconnecting.
+2024-12-16 22:24:38.212 +05:00 [DBG] Connection id "0HN8TUPFUIDCN" stopped.
+2024-12-16 22:24:40.483 +05:00 [INF] Application is shutting down...
+2024-12-16 22:24:40.483 +05:00 [DBG] Hosting stopping
+2024-12-16 22:24:40.486 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" disconnecting.
+2024-12-16 22:24:40.486 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" stopped.
+2024-12-16 22:24:40.487 +05:00 [DBG] Connection id "0HN8TUPFUIDCM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:24:40.489 +05:00 [DBG] Hosting stopped
+2024-12-16 22:26:53.876 +05:00 [DBG] Hosting starting
+2024-12-16 22:26:53.948 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:26:53.949 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:26:53.951 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:26:53.952 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:26:53.952 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:26:53.953 +05:00 [DBG] Hosting started
+2024-12-16 22:26:55.956 +05:00 [DBG] Connection id "0HN8TURBCUQFL" accepted.
+2024-12-16 22:26:55.958 +05:00 [DBG] Connection id "0HN8TURBCUQFL" started.
+2024-12-16 22:26:55.958 +05:00 [DBG] Connection id "0HN8TURBCUQFM" accepted.
+2024-12-16 22:26:55.960 +05:00 [DBG] Connection id "0HN8TURBCUQFM" started.
+2024-12-16 22:26:55.979 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:26:55.985 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:26:56.007 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:26:56.008 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:26:56.070 +05:00 [DBG] Connection id "0HN8TURBCUQFL" completed keep alive response.
+2024-12-16 22:26:56.072 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 94.0436ms
+2024-12-16 22:26:56.133 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:26:56.135 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:26:56.136 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:26:56.139 +05:00 [DBG] Connection id "0HN8TURBCUQFL" completed keep alive response.
+2024-12-16 22:26:56.140 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 7.4377ms
+2024-12-16 22:26:56.207 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:26:56.209 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:26:56.210 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:26:56.222 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:26:56.266 +05:00 [DBG] Connection id "0HN8TURBCUQFL" completed keep alive response.
+2024-12-16 22:26:56.267 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.7293ms
+2024-12-16 22:26:57.895 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:26:57.896 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:26:57.896 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:26:57.897 +05:00 [DBG] Connection id "0HN8TURBCUQFL" completed keep alive response.
+2024-12-16 22:26:57.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 3.1437ms
+2024-12-16 22:26:57.912 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:26:57.913 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:26:57.914 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:26:57.915 +05:00 [DBG] Connection id "0HN8TURBCUQFL" completed keep alive response.
+2024-12-16 22:26:57.916 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 4.2401ms
+2024-12-16 22:26:57.943 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:26:57.945 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:26:57.945 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:26:57.947 +05:00 [DBG] Connection id "0HN8TURBCUQFL" completed keep alive response.
+2024-12-16 22:26:57.948 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.2538ms
+2024-12-16 22:28:07.438 +05:00 [DBG] Connection id "0HN8TURBCUQFM" received FIN.
+2024-12-16 22:28:07.443 +05:00 [DBG] Connection id "0HN8TURBCUQFM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:28:07.444 +05:00 [DBG] Connection id "0HN8TURBCUQFM" disconnecting.
+2024-12-16 22:28:07.446 +05:00 [DBG] Connection id "0HN8TURBCUQFM" stopped.
+2024-12-16 22:29:07.307 +05:00 [INF] Application is shutting down...
+2024-12-16 22:29:07.307 +05:00 [DBG] Hosting stopping
+2024-12-16 22:29:07.310 +05:00 [DBG] Connection id "0HN8TURBCUQFL" disconnecting.
+2024-12-16 22:29:07.310 +05:00 [DBG] Connection id "0HN8TURBCUQFL" stopped.
+2024-12-16 22:29:07.311 +05:00 [DBG] Connection id "0HN8TURBCUQFL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:29:07.313 +05:00 [DBG] Hosting stopped
+2024-12-16 22:29:14.408 +05:00 [DBG] Hosting starting
+2024-12-16 22:29:14.481 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:29:14.482 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:29:14.483 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:29:14.484 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:29:14.484 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:29:14.485 +05:00 [DBG] Hosting started
+2024-12-16 22:29:17.898 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" accepted.
+2024-12-16 22:29:17.900 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" started.
+2024-12-16 22:29:17.900 +05:00 [DBG] Connection id "0HN8TUSLMK8G7" accepted.
+2024-12-16 22:29:17.902 +05:00 [DBG] Connection id "0HN8TUSLMK8G7" started.
+2024-12-16 22:29:17.923 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:29:17.928 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:29:17.948 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:29:17.949 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:29:18.015 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" completed keep alive response.
+2024-12-16 22:29:18.016 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 94.5157ms
+2024-12-16 22:29:18.033 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:29:18.035 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:29:18.036 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:29:18.038 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" completed keep alive response.
+2024-12-16 22:29:18.039 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 5.7983ms
+2024-12-16 22:29:18.298 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:29:18.300 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:29:18.300 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:29:18.310 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:29:18.321 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" completed keep alive response.
+2024-12-16 22:29:18.322 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.8982ms
+2024-12-16 22:29:24.523 +05:00 [INF] Application is shutting down...
+2024-12-16 22:29:24.524 +05:00 [DBG] Hosting stopping
+2024-12-16 22:29:24.527 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" disconnecting.
+2024-12-16 22:29:24.527 +05:00 [DBG] Connection id "0HN8TUSLMK8G7" disconnecting.
+2024-12-16 22:29:24.528 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" stopped.
+2024-12-16 22:29:24.528 +05:00 [DBG] Connection id "0HN8TUSLMK8G7" stopped.
+2024-12-16 22:29:24.532 +05:00 [DBG] Connection id "0HN8TUSLMK8G7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:29:24.532 +05:00 [DBG] Connection id "0HN8TUSLMK8G6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:29:24.534 +05:00 [DBG] Hosting stopped
+2024-12-16 22:29:33.052 +05:00 [DBG] Hosting starting
+2024-12-16 22:29:33.124 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:29:33.125 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:29:33.127 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:29:33.128 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:29:33.128 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:29:33.129 +05:00 [DBG] Hosting started
+2024-12-16 22:29:35.287 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" accepted.
+2024-12-16 22:29:35.288 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" started.
+2024-12-16 22:29:35.288 +05:00 [DBG] Connection id "0HN8TUSQSEOLM" accepted.
+2024-12-16 22:29:35.290 +05:00 [DBG] Connection id "0HN8TUSQSEOLM" started.
+2024-12-16 22:29:35.310 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:29:35.316 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:29:35.333 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:29:35.335 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:29:35.394 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" completed keep alive response.
+2024-12-16 22:29:35.396 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 87.4282ms
+2024-12-16 22:29:35.443 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:29:35.445 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:29:35.446 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:29:35.448 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" completed keep alive response.
+2024-12-16 22:29:35.449 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.3221ms
+2024-12-16 22:29:35.517 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:29:35.519 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:29:35.520 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:29:35.531 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:29:35.576 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" completed keep alive response.
+2024-12-16 22:29:35.576 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.2721ms
+2024-12-16 22:29:53.381 +05:00 [INF] Application is shutting down...
+2024-12-16 22:29:53.381 +05:00 [DBG] Hosting stopping
+2024-12-16 22:29:53.385 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" disconnecting.
+2024-12-16 22:29:53.385 +05:00 [DBG] Connection id "0HN8TUSQSEOLM" disconnecting.
+2024-12-16 22:29:53.386 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" stopped.
+2024-12-16 22:29:53.386 +05:00 [DBG] Connection id "0HN8TUSQSEOLM" stopped.
+2024-12-16 22:29:53.389 +05:00 [DBG] Connection id "0HN8TUSQSEOLL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:29:53.389 +05:00 [DBG] Connection id "0HN8TUSQSEOLM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:29:53.391 +05:00 [DBG] Hosting stopped
+2024-12-16 22:29:55.869 +05:00 [DBG] Hosting starting
+2024-12-16 22:29:55.936 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:29:55.937 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:29:55.939 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:29:55.939 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:29:55.940 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:29:55.940 +05:00 [DBG] Hosting started
+2024-12-16 22:29:56.893 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" accepted.
+2024-12-16 22:29:56.894 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" started.
+2024-12-16 22:29:56.895 +05:00 [DBG] Connection id "0HN8TUT1AGB0U" accepted.
+2024-12-16 22:29:56.896 +05:00 [DBG] Connection id "0HN8TUT1AGB0U" started.
+2024-12-16 22:29:56.916 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:29:56.922 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:29:56.991 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:29:56.993 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 78.2531ms
+2024-12-16 22:29:57.041 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:29:57.045 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:29:57.047 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.0119ms
+2024-12-16 22:29:57.118 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:29:57.132 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:29:57.141 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:29:57.142 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.5157ms
+2024-12-16 22:30:01.729 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:30:01.731 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:01.732 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.8166ms
+2024-12-16 22:30:01.789 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/favicon.ico - null null
+2024-12-16 22:30:01.792 +05:00 [DBG] The request path /favicon.ico does not match an existing file
+2024-12-16 22:30:01.793 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:01.794 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/favicon.ico - 404 0 null 5.0756ms
+2024-12-16 22:30:01.798 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/favicon.ico, Response status code: 404
+2024-12-16 22:30:09.862 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:30:09.864 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:09.865 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.5134ms
+2024-12-16 22:30:14.180 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/flag - null null
+2024-12-16 22:30:14.181 +05:00 [DBG] The request path /flag does not match a supported file type
+2024-12-16 22:30:14.182 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:14.183 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/flag - 404 0 null 3.3469ms
+2024-12-16 22:30:14.185 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/flag, Response status code: 404
+2024-12-16 22:30:28.213 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/Flag - null null
+2024-12-16 22:30:28.214 +05:00 [DBG] The request path /Flag does not match a supported file type
+2024-12-16 22:30:28.215 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:28.215 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/Flag - 404 0 null 2.6921ms
+2024-12-16 22:30:28.217 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/Flag, Response status code: 404
+2024-12-16 22:30:38.218 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/ - null null
+2024-12-16 22:30:38.220 +05:00 [DBG] The request path /swagger/ does not match a supported file type
+2024-12-16 22:30:38.221 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:38.222 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/ - 404 0 null 3.1062ms
+2024-12-16 22:30:38.223 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/swagger/, Response status code: 404
+2024-12-16 22:30:41.486 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:30:41.488 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:41.488 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 2.2705ms
+2024-12-16 22:30:41.506 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:30:41.511 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:41.512 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 5.8442ms
+2024-12-16 22:30:41.713 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:30:41.715 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" completed keep alive response.
+2024-12-16 22:30:41.715 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.1911ms
+2024-12-16 22:31:10.800 +05:00 [DBG] Connection id "0HN8TUT1AGB0U" received FIN.
+2024-12-16 22:31:10.803 +05:00 [DBG] Connection id "0HN8TUT1AGB0U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:31:10.804 +05:00 [DBG] Connection id "0HN8TUT1AGB0U" disconnecting.
+2024-12-16 22:31:10.805 +05:00 [DBG] Connection id "0HN8TUT1AGB0U" stopped.
+2024-12-16 22:32:53.274 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" disconnecting.
+2024-12-16 22:32:53.275 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" stopped.
+2024-12-16 22:32:53.276 +05:00 [DBG] Connection id "0HN8TUT1AGB0T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:34:56.211 +05:00 [INF] Application is shutting down...
+2024-12-16 22:34:56.212 +05:00 [DBG] Hosting stopping
+2024-12-16 22:34:56.215 +05:00 [DBG] Hosting stopped
+2024-12-16 22:34:58.603 +05:00 [DBG] Hosting starting
+2024-12-16 22:34:58.671 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:34:58.672 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:34:58.674 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:34:58.674 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:34:58.675 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:34:58.675 +05:00 [DBG] Hosting started
+2024-12-16 22:34:59.989 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" accepted.
+2024-12-16 22:34:59.990 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" started.
+2024-12-16 22:34:59.991 +05:00 [DBG] Connection id "0HN8TUVRL1T8Q" accepted.
+2024-12-16 22:34:59.992 +05:00 [DBG] Connection id "0HN8TUVRL1T8Q" started.
+2024-12-16 22:35:00.014 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:35:00.020 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:35:00.093 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" completed keep alive response.
+2024-12-16 22:35:00.095 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 82.999ms
+2024-12-16 22:35:00.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:35:00.173 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" completed keep alive response.
+2024-12-16 22:35:00.175 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 5.0463ms
+2024-12-16 22:35:00.243 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:35:00.255 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:35:00.263 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" completed keep alive response.
+2024-12-16 22:35:00.263 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.5487ms
+2024-12-16 22:36:00.195 +05:00 [DBG] Connection id "0HN8TUVRL1T8Q" received FIN.
+2024-12-16 22:36:00.198 +05:00 [DBG] Connection id "0HN8TUVRL1T8Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:36:00.199 +05:00 [DBG] Connection id "0HN8TUVRL1T8Q" disconnecting.
+2024-12-16 22:36:00.201 +05:00 [DBG] Connection id "0HN8TUVRL1T8Q" stopped.
+2024-12-16 22:36:46.244 +05:00 [INF] Application is shutting down...
+2024-12-16 22:36:46.244 +05:00 [DBG] Hosting stopping
+2024-12-16 22:36:46.247 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" disconnecting.
+2024-12-16 22:36:46.247 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" stopped.
+2024-12-16 22:36:46.248 +05:00 [DBG] Connection id "0HN8TUVRL1T8P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:36:46.250 +05:00 [DBG] Hosting stopped
+2024-12-16 22:36:48.494 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 22:36:48.533 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:36:48.536 +05:00 [DBG] Hosting starting
+2024-12-16 22:36:48.569 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:36:48.569 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:36:48.571 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:36:48.572 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:36:48.572 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:36:48.573 +05:00 [DBG] Hosting started
+2024-12-16 22:36:49.439 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" accepted.
+2024-12-16 22:36:49.441 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" started.
+2024-12-16 22:36:49.441 +05:00 [DBG] Connection id "0HN8TV0S8RINA" accepted.
+2024-12-16 22:36:49.442 +05:00 [DBG] Connection id "0HN8TV0S8RINA" started.
+2024-12-16 22:36:49.462 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:36:49.465 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:36:49.470 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:36:49.471 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:36:49.532 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" completed keep alive response.
+2024-12-16 22:36:49.534 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 72.6063ms
+2024-12-16 22:36:49.597 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:36:49.599 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:36:49.600 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:36:49.602 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" completed keep alive response.
+2024-12-16 22:36:49.603 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.5477ms
+2024-12-16 22:36:49.674 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:36:49.676 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:36:49.677 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:36:49.690 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" completed keep alive response.
+2024-12-16 22:36:49.691 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.1061ms
+2024-12-16 22:36:54.253 +05:00 [INF] Application is shutting down...
+2024-12-16 22:36:54.254 +05:00 [DBG] Hosting stopping
+2024-12-16 22:36:54.257 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" disconnecting.
+2024-12-16 22:36:54.257 +05:00 [DBG] Connection id "0HN8TV0S8RINA" disconnecting.
+2024-12-16 22:36:54.258 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" stopped.
+2024-12-16 22:36:54.258 +05:00 [DBG] Connection id "0HN8TV0S8RINA" stopped.
+2024-12-16 22:36:54.261 +05:00 [DBG] Connection id "0HN8TV0S8RIN9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:36:54.261 +05:00 [DBG] Connection id "0HN8TV0S8RINA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:36:54.264 +05:00 [DBG] Hosting stopped
+2024-12-16 22:37:15.150 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 22:37:15.192 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:37:15.195 +05:00 [DBG] Hosting starting
+2024-12-16 22:37:15.228 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:37:15.229 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:37:15.230 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:37:15.231 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:37:15.231 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:37:15.232 +05:00 [DBG] Hosting started
+2024-12-16 22:37:16.423 +05:00 [DBG] Connection id "0HN8TV14A6F7B" accepted.
+2024-12-16 22:37:16.425 +05:00 [DBG] Connection id "0HN8TV14A6F7B" started.
+2024-12-16 22:37:16.425 +05:00 [DBG] Connection id "0HN8TV14A6F7C" accepted.
+2024-12-16 22:37:16.426 +05:00 [DBG] Connection id "0HN8TV14A6F7C" started.
+2024-12-16 22:37:16.446 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:37:16.450 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:37:16.456 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:37:16.457 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:37:16.522 +05:00 [DBG] Connection id "0HN8TV14A6F7B" completed keep alive response.
+2024-12-16 22:37:16.524 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 78.624ms
+2024-12-16 22:37:16.587 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:37:16.589 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:37:16.590 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:37:16.593 +05:00 [DBG] Connection id "0HN8TV14A6F7B" completed keep alive response.
+2024-12-16 22:37:16.594 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.5805ms
+2024-12-16 22:37:16.664 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:37:16.667 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:37:16.668 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:37:16.683 +05:00 [DBG] Connection id "0HN8TV14A6F7B" completed keep alive response.
+2024-12-16 22:37:16.684 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.693ms
+2024-12-16 22:37:57.604 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:37:57.606 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:37:57.607 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:37:57.608 +05:00 [DBG] Connection id "0HN8TV14A6F7B" completed keep alive response.
+2024-12-16 22:37:57.609 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 4.3766ms
+2024-12-16 22:37:57.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:37:57.628 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:37:57.629 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:37:57.630 +05:00 [DBG] Connection id "0HN8TV14A6F7B" completed keep alive response.
+2024-12-16 22:37:57.632 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 7.0443ms
+2024-12-16 22:37:57.710 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:37:57.711 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:37:57.712 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:37:57.714 +05:00 [DBG] Connection id "0HN8TV14A6F7B" completed keep alive response.
+2024-12-16 22:37:57.714 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.8576ms
+2024-12-16 22:38:09.173 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/flag - null null
+2024-12-16 22:38:09.175 +05:00 [DBG] No candidates found for the request path '/api/flag'
+2024-12-16 22:38:09.175 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:38:09.176 +05:00 [DBG] The request path /api/flag does not match a supported file type
+2024-12-16 22:38:09.184 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-16 22:38:09.185 +05:00 [DBG] Connection id "0HN8TV14A6F7B" completed keep alive response.
+2024-12-16 22:38:09.186 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/flag - 404 0 null 12.6211ms
+2024-12-16 22:38:09.188 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/api/flag, Response status code: 404
+2024-12-16 22:38:22.151 +05:00 [DBG] Connection id "0HN8TV14A6F7C" received FIN.
+2024-12-16 22:38:22.154 +05:00 [DBG] Connection id "0HN8TV14A6F7C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:38:22.155 +05:00 [DBG] Connection id "0HN8TV14A6F7C" disconnecting.
+2024-12-16 22:38:22.156 +05:00 [DBG] Connection id "0HN8TV14A6F7C" stopped.
+2024-12-16 22:39:07.547 +05:00 [INF] Application is shutting down...
+2024-12-16 22:39:07.548 +05:00 [DBG] Hosting stopping
+2024-12-16 22:39:07.551 +05:00 [DBG] Connection id "0HN8TV14A6F7B" disconnecting.
+2024-12-16 22:39:07.551 +05:00 [DBG] Connection id "0HN8TV14A6F7B" stopped.
+2024-12-16 22:39:07.552 +05:00 [DBG] Connection id "0HN8TV14A6F7B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:39:07.554 +05:00 [DBG] Hosting stopped
+2024-12-16 22:39:10.093 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 22:39:10.130 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:39:10.134 +05:00 [DBG] Hosting starting
+2024-12-16 22:39:10.166 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:39:10.167 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:39:10.168 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:39:10.169 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:39:10.170 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:39:10.170 +05:00 [DBG] Hosting started
+2024-12-16 22:39:11.287 +05:00 [DBG] Connection id "0HN8TV26HK52R" accepted.
+2024-12-16 22:39:11.290 +05:00 [DBG] Connection id "0HN8TV26HK52R" started.
+2024-12-16 22:39:11.290 +05:00 [DBG] Connection id "0HN8TV26HK52S" accepted.
+2024-12-16 22:39:11.291 +05:00 [DBG] Connection id "0HN8TV26HK52S" started.
+2024-12-16 22:39:11.311 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:39:11.315 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:39:11.321 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:39:11.322 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:11.385 +05:00 [DBG] Connection id "0HN8TV26HK52R" completed keep alive response.
+2024-12-16 22:39:11.387 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 76.7634ms
+2024-12-16 22:39:11.458 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:39:11.459 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:39:11.460 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:11.463 +05:00 [DBG] Connection id "0HN8TV26HK52R" completed keep alive response.
+2024-12-16 22:39:11.464 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.207ms
+2024-12-16 22:39:11.521 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:39:11.522 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:39:11.523 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:11.538 +05:00 [DBG] Connection id "0HN8TV26HK52R" completed keep alive response.
+2024-12-16 22:39:11.538 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.5531ms
+2024-12-16 22:39:35.547 +05:00 [INF] Application is shutting down...
+2024-12-16 22:39:35.548 +05:00 [DBG] Hosting stopping
+2024-12-16 22:39:35.551 +05:00 [DBG] Connection id "0HN8TV26HK52S" disconnecting.
+2024-12-16 22:39:35.551 +05:00 [DBG] Connection id "0HN8TV26HK52R" disconnecting.
+2024-12-16 22:39:35.553 +05:00 [DBG] Connection id "0HN8TV26HK52S" stopped.
+2024-12-16 22:39:35.553 +05:00 [DBG] Connection id "0HN8TV26HK52R" stopped.
+2024-12-16 22:39:35.556 +05:00 [DBG] Connection id "0HN8TV26HK52R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:39:35.556 +05:00 [DBG] Connection id "0HN8TV26HK52S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:39:35.559 +05:00 [DBG] Hosting stopped
+2024-12-16 22:39:37.958 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 22:39:37.994 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-12-16 22:39:37.997 +05:00 [DBG] Hosting starting
+2024-12-16 22:39:38.029 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:39:38.030 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:39:38.031 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:39:38.032 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:39:38.033 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:39:38.033 +05:00 [DBG] Hosting started
+2024-12-16 22:39:39.336 +05:00 [DBG] Connection id "0HN8TV2ET42C8" accepted.
+2024-12-16 22:39:39.338 +05:00 [DBG] Connection id "0HN8TV2ET42C8" started.
+2024-12-16 22:39:39.338 +05:00 [DBG] Connection id "0HN8TV2ET42C9" accepted.
+2024-12-16 22:39:39.339 +05:00 [DBG] Connection id "0HN8TV2ET42C9" started.
+2024-12-16 22:39:39.360 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:39:39.364 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:39:39.370 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:39:39.371 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:39.434 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:39.435 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 77.1069ms
+2024-12-16 22:39:39.495 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:39:39.498 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:39:39.499 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:39.502 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:39.503 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 7.6751ms
+2024-12-16 22:39:39.575 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:39:39.577 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:39:39.577 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:39.591 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:39.592 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.4713ms
+2024-12-16 22:39:44.933 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/flags - null null
+2024-12-16 22:39:44.934 +05:00 [DBG] No candidates found for the request path '/api/flags'
+2024-12-16 22:39:44.935 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:44.936 +05:00 [DBG] The request path /api/flags does not match a supported file type
+2024-12-16 22:39:44.940 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-16 22:39:44.941 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:44.942 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/flags - 404 0 null 8.849ms
+2024-12-16 22:39:44.944 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/api/flags, Response status code: 404
+2024-12-16 22:39:47.431 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/flag - null null
+2024-12-16 22:39:47.432 +05:00 [DBG] No candidates found for the request path '/api/flag'
+2024-12-16 22:39:47.433 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:47.434 +05:00 [DBG] The request path /api/flag does not match a supported file type
+2024-12-16 22:39:47.434 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:47.435 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/flag - 404 0 null 4.0551ms
+2024-12-16 22:39:47.437 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/api/flag, Response status code: 404
+2024-12-16 22:39:50.554 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:39:50.556 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:39:50.557 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:50.558 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:50.558 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 3.8122ms
+2024-12-16 22:39:50.580 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:39:50.582 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:39:50.584 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:50.585 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:50.586 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.5126ms
+2024-12-16 22:39:50.810 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:39:50.812 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:39:50.812 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:39:50.813 +05:00 [DBG] Connection id "0HN8TV2ET42C8" completed keep alive response.
+2024-12-16 22:39:50.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.4851ms
+2024-12-16 22:40:54.872 +05:00 [DBG] Connection id "0HN8TV2ET42C9" received FIN.
+2024-12-16 22:40:54.876 +05:00 [DBG] Connection id "0HN8TV2ET42C9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:40:54.877 +05:00 [DBG] Connection id "0HN8TV2ET42C9" disconnecting.
+2024-12-16 22:40:54.878 +05:00 [DBG] Connection id "0HN8TV2ET42C9" stopped.
+2024-12-16 22:41:55.014 +05:00 [DBG] Connection id "0HN8TV2ET42C8" received FIN.
+2024-12-16 22:41:55.015 +05:00 [DBG] Connection id "0HN8TV2ET42C8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:41:55.016 +05:00 [DBG] Connection id "0HN8TV2ET42C8" disconnecting.
+2024-12-16 22:41:55.016 +05:00 [DBG] Connection id "0HN8TV2ET42C8" stopped.
+2024-12-16 22:41:56.955 +05:00 [INF] Application is shutting down...
+2024-12-16 22:41:56.956 +05:00 [DBG] Hosting stopping
+2024-12-16 22:41:56.959 +05:00 [DBG] Hosting stopped
+2024-12-16 22:43:40.354 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 22:43:40.409 +05:00 [DBG] Hosting starting
+2024-12-16 22:43:40.446 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 22:43:40.446 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 22:43:40.448 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 22:43:40.448 +05:00 [INF] Hosting environment: Development
+2024-12-16 22:43:40.449 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 22:43:40.449 +05:00 [DBG] Hosting started
+2024-12-16 22:43:41.809 +05:00 [DBG] Connection id "0HN8TV4N5GN47" accepted.
+2024-12-16 22:43:41.810 +05:00 [DBG] Connection id "0HN8TV4N5GN47" started.
+2024-12-16 22:43:41.810 +05:00 [DBG] Connection id "0HN8TV4N5GN48" accepted.
+2024-12-16 22:43:41.811 +05:00 [DBG] Connection id "0HN8TV4N5GN48" started.
+2024-12-16 22:43:41.830 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:43:41.839 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 22:43:41.847 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:43:41.848 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:43:41.913 +05:00 [DBG] Connection id "0HN8TV4N5GN47" completed keep alive response.
+2024-12-16 22:43:41.915 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 85.3947ms
+2024-12-16 22:43:41.979 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:43:41.982 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:43:41.983 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:43:41.985 +05:00 [DBG] Connection id "0HN8TV4N5GN47" completed keep alive response.
+2024-12-16 22:43:41.988 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 8.2298ms
+2024-12-16 22:43:42.057 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:43:42.058 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:43:42.059 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:43:42.121 +05:00 [DBG] Connection id "0HN8TV4N5GN47" completed keep alive response.
+2024-12-16 22:43:42.121 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.6117ms
+2024-12-16 22:43:46.373 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 22:43:46.375 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 22:43:46.376 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:43:46.377 +05:00 [DBG] Connection id "0HN8TV4N5GN47" completed keep alive response.
+2024-12-16 22:43:46.377 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 4.0222ms
+2024-12-16 22:43:46.391 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 22:43:46.397 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 22:43:46.399 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:43:46.400 +05:00 [DBG] Connection id "0HN8TV4N5GN47" completed keep alive response.
+2024-12-16 22:43:46.401 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 9.7619ms
+2024-12-16 22:43:46.468 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 22:43:46.469 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 22:43:46.470 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 22:43:46.473 +05:00 [DBG] Connection id "0HN8TV4N5GN47" completed keep alive response.
+2024-12-16 22:43:46.474 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.3302ms
+2024-12-16 22:44:02.413 +05:00 [INF] Application is shutting down...
+2024-12-16 22:44:02.413 +05:00 [DBG] Hosting stopping
+2024-12-16 22:44:02.417 +05:00 [DBG] Connection id "0HN8TV4N5GN47" disconnecting.
+2024-12-16 22:44:02.417 +05:00 [DBG] Connection id "0HN8TV4N5GN48" disconnecting.
+2024-12-16 22:44:02.418 +05:00 [DBG] Connection id "0HN8TV4N5GN48" stopped.
+2024-12-16 22:44:02.418 +05:00 [DBG] Connection id "0HN8TV4N5GN47" stopped.
+2024-12-16 22:44:02.422 +05:00 [DBG] Connection id "0HN8TV4N5GN48" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:44:02.422 +05:00 [DBG] Connection id "0HN8TV4N5GN47" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 22:44:02.425 +05:00 [DBG] Hosting stopped
+2024-12-16 23:03:42.134 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 23:03:42.189 +05:00 [DBG] Hosting starting
+2024-12-16 23:03:42.222 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 23:03:42.222 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 23:03:42.224 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 23:03:42.224 +05:00 [INF] Hosting environment: Development
+2024-12-16 23:03:42.225 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 23:03:42.225 +05:00 [DBG] Hosting started
+2024-12-16 23:03:43.285 +05:00 [DBG] Connection id "0HN8TVFT7M388" accepted.
+2024-12-16 23:03:43.286 +05:00 [DBG] Connection id "0HN8TVFT7M388" started.
+2024-12-16 23:03:43.287 +05:00 [DBG] Connection id "0HN8TVFT7M389" accepted.
+2024-12-16 23:03:43.288 +05:00 [DBG] Connection id "0HN8TVFT7M389" started.
+2024-12-16 23:03:43.308 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 23:03:43.313 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 23:03:43.324 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 23:03:43.325 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 23:03:43.392 +05:00 [DBG] Connection id "0HN8TVFT7M388" completed keep alive response.
+2024-12-16 23:03:43.394 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 86.9968ms
+2024-12-16 23:03:43.454 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 23:03:43.456 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 23:03:43.457 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 23:03:43.459 +05:00 [DBG] Connection id "0HN8TVFT7M388" completed keep alive response.
+2024-12-16 23:03:43.460 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.5717ms
+2024-12-16 23:03:43.527 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 23:03:43.528 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 23:03:43.529 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 23:03:43.596 +05:00 [DBG] Connection id "0HN8TVFT7M388" completed keep alive response.
+2024-12-16 23:03:43.597 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.2478ms
+2024-12-16 23:04:03.472 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5262/api/Flag - application/json 91
+2024-12-16 23:04:03.476 +05:00 [DBG] 1 candidate(s) found for the request path '/api/Flag'
+2024-12-16 23:04:03.479 +05:00 [DBG] Endpoint 'FlagController.PostFlag (warfront-legacy-web-api-core)' with route pattern 'api/Flag' is valid for the request path '/api/Flag'
+2024-12-16 23:04:03.480 +05:00 [DBG] Request matched endpoint 'FlagController.PostFlag (warfront-legacy-web-api-core)'
+2024-12-16 23:04:03.482 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-16 23:04:03.487 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-16 23:04:03.489 +05:00 [INF] Executing endpoint 'FlagController.PostFlag (warfront-legacy-web-api-core)'
+2024-12-16 23:04:03.507 +05:00 [INF] Route matched with {action = "PostFlag", controller = "Flag"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Flag]] PostFlag(AppDbConext, Flag) on controller FlagController (warfront-legacy-web-api-core).
+2024-12-16 23:04:03.510 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-16 23:04:03.511 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-16 23:04:03.512 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-16 23:04:03.513 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-16 23:04:03.514 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-16 23:04:03.515 +05:00 [DBG] Executing controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-16 23:04:03.566 +05:00 [DBG] Executed controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-16 23:04:03.570 +05:00 [DBG] Attempting to bind parameter '_db' of type 'AppDbConext' ...
+2024-12-16 23:04:03.571 +05:00 [DBG] Done attempting to bind parameter '_db' of type 'AppDbConext'.
+2024-12-16 23:04:03.572 +05:00 [DBG] Attempting to validate the bound parameter '_db' of type 'AppDbConext' ...
+2024-12-16 23:04:03.573 +05:00 [DBG] Done attempting to validate the bound parameter '_db' of type 'AppDbConext'.
+2024-12-16 23:04:03.574 +05:00 [DBG] Attempting to bind parameter '_flag' of type 'Flag' ...
+2024-12-16 23:04:03.576 +05:00 [DBG] Attempting to bind parameter '_flag' of type 'Flag' using the name '' in request data ...
+2024-12-16 23:04:03.577 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-12-16 23:04:03.600 +05:00 [DBG] Connection id "0HN8TVFT7M388", Request id "0HN8TVFT7M388:00000004": started reading request body.
+2024-12-16 23:04:03.601 +05:00 [DBG] Connection id "0HN8TVFT7M388", Request id "0HN8TVFT7M388:00000004": done reading request body.
+2024-12-16 23:04:03.614 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'Flag'
+2024-12-16 23:04:03.614 +05:00 [DBG] Done attempting to bind parameter '_flag' of type 'Flag'.
+2024-12-16 23:04:03.615 +05:00 [DBG] Done attempting to bind parameter '_flag' of type 'Flag'.
+2024-12-16 23:04:03.616 +05:00 [DBG] Attempting to validate the bound parameter '_flag' of type 'Flag' ...
+2024-12-16 23:04:03.619 +05:00 [DBG] Done attempting to validate the bound parameter '_flag' of type 'Flag'.
+2024-12-16 23:04:04.265 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-12-16 23:04:04.268 +05:00 [INF] Executed action FlagController.PostFlag (warfront-legacy-web-api-core) in 751.9856ms
+2024-12-16 23:04:04.269 +05:00 [INF] Executed endpoint 'FlagController.PostFlag (warfront-legacy-web-api-core)'
+2024-12-16 23:04:04.271 +05:00 [DBG] Connection id "0HN8TVFT7M388" completed keep alive response.
+2024-12-16 23:04:04.275 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5262/api/Flag - 200 0 null 803.038ms
+2024-12-16 23:04:09.196 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/Flag - null null
+2024-12-16 23:04:09.197 +05:00 [DBG] 1 candidate(s) found for the request path '/api/Flag'
+2024-12-16 23:04:09.198 +05:00 [DBG] Endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)' with route pattern 'api/Flag' is valid for the request path '/api/Flag'
+2024-12-16 23:04:09.199 +05:00 [DBG] Request matched endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)'
+2024-12-16 23:04:09.199 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-16 23:04:09.200 +05:00 [INF] Executing endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)'
+2024-12-16 23:04:09.204 +05:00 [INF] Route matched with {action = "GetAllFlags", controller = "Flag"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Flag]]] GetAllFlags() on controller FlagController (warfront-legacy-web-api-core).
+2024-12-16 23:04:09.205 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-16 23:04:09.206 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-16 23:04:09.206 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-16 23:04:09.207 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-16 23:04:09.208 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-16 23:04:09.209 +05:00 [DBG] Executing controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-16 23:04:09.211 +05:00 [DBG] Executed controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-16 23:04:09.351 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-16 23:04:09.353 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-16 23:04:09.354 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-16 23:04:09.355 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-16 23:04:09.355 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-16 23:04:09.356 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-16 23:04:09.357 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Flag, warfront-legacy-web-api-core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-16 23:04:09.369 +05:00 [INF] Executed action FlagController.GetAllFlags (warfront-legacy-web-api-core) in 160.4491ms
+2024-12-16 23:04:09.370 +05:00 [INF] Executed endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)'
+2024-12-16 23:04:09.371 +05:00 [DBG] Connection id "0HN8TVFT7M388" completed keep alive response.
+2024-12-16 23:04:09.371 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/Flag - 200 null application/json; charset=utf-8 175.4544ms
+2024-12-16 23:04:15.302 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/Flag/1 - null null
+2024-12-16 23:04:15.304 +05:00 [DBG] 1 candidate(s) found for the request path '/api/Flag/1'
+2024-12-16 23:04:15.305 +05:00 [DBG] Endpoint 'FlagController.GetFlagById (warfront-legacy-web-api-core)' with route pattern 'api/Flag/{id}' is valid for the request path '/api/Flag/1'
+2024-12-16 23:04:15.306 +05:00 [DBG] Request matched endpoint 'FlagController.GetFlagById (warfront-legacy-web-api-core)'
+2024-12-16 23:04:15.306 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-16 23:04:15.307 +05:00 [INF] Executing endpoint 'FlagController.GetFlagById (warfront-legacy-web-api-core)'
+2024-12-16 23:04:15.310 +05:00 [INF] Route matched with {action = "GetFlagById", controller = "Flag"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Flag]] GetFlagById(Int32) on controller FlagController (warfront-legacy-web-api-core).
+2024-12-16 23:04:15.312 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-16 23:04:15.312 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-16 23:04:15.313 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-16 23:04:15.314 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-16 23:04:15.315 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-16 23:04:15.316 +05:00 [DBG] Executing controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-16 23:04:15.316 +05:00 [DBG] Executed controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-16 23:04:15.317 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-16 23:04:15.318 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-16 23:04:15.320 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-16 23:04:15.321 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-16 23:04:15.321 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-16 23:04:15.322 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-16 23:04:15.376 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-16 23:04:15.377 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-16 23:04:15.378 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-16 23:04:15.379 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-16 23:04:15.379 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-16 23:04:15.380 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-16 23:04:15.380 +05:00 [INF] Executing OkObjectResult, writing value of type 'Flag'.
+2024-12-16 23:04:15.381 +05:00 [INF] Executed action FlagController.GetFlagById (warfront-legacy-web-api-core) in 65.4971ms
+2024-12-16 23:04:15.382 +05:00 [INF] Executed endpoint 'FlagController.GetFlagById (warfront-legacy-web-api-core)'
+2024-12-16 23:04:15.382 +05:00 [DBG] Connection id "0HN8TVFT7M388" completed keep alive response.
+2024-12-16 23:04:15.383 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/Flag/1 - 200 null application/json; charset=utf-8 80.7293ms
+2024-12-16 23:04:46.471 +05:00 [DBG] Connection id "0HN8TVFT7M389" received FIN.
+2024-12-16 23:04:46.473 +05:00 [DBG] Connection id "0HN8TVFT7M389" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 23:04:46.473 +05:00 [DBG] Connection id "0HN8TVFT7M389" disconnecting.
+2024-12-16 23:04:46.474 +05:00 [DBG] Connection id "0HN8TVFT7M389" stopped.
+2024-12-16 23:06:25.474 +05:00 [DBG] Connection id "0HN8TVFT7M388" disconnecting.
+2024-12-16 23:06:25.474 +05:00 [DBG] Connection id "0HN8TVFT7M388" stopped.
+2024-12-16 23:06:25.475 +05:00 [DBG] Connection id "0HN8TVFT7M388" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 23:06:27.965 +05:00 [INF] Application is shutting down...
+2024-12-16 23:06:27.965 +05:00 [DBG] Hosting stopping
+2024-12-16 23:06:27.969 +05:00 [DBG] Hosting stopped
+2024-12-16 23:14:48.774 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 23:14:48.827 +05:00 [DBG] Hosting starting
+2024-12-16 23:14:48.860 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 23:14:48.860 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 23:14:48.862 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 23:14:48.863 +05:00 [INF] Hosting environment: Development
+2024-12-16 23:14:48.864 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 23:14:48.864 +05:00 [DBG] Hosting started
+2024-12-16 23:17:39.862 +05:00 [INF] Application is shutting down...
+2024-12-16 23:17:39.862 +05:00 [DBG] Hosting stopping
+2024-12-16 23:17:39.866 +05:00 [DBG] Hosting stopped
+2024-12-16 23:26:28.215 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-16 23:26:28.267 +05:00 [DBG] Hosting starting
+2024-12-16 23:26:28.298 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-16 23:26:28.299 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-16 23:26:28.300 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-16 23:26:28.301 +05:00 [INF] Hosting environment: Development
+2024-12-16 23:26:28.302 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-16 23:26:28.302 +05:00 [DBG] Hosting started
+2024-12-16 23:26:29.283 +05:00 [DBG] Connection id "0HN8TVSKAROK7" accepted.
+2024-12-16 23:26:29.285 +05:00 [DBG] Connection id "0HN8TVSKAROK7" started.
+2024-12-16 23:26:29.285 +05:00 [DBG] Connection id "0HN8TVSKAROK8" accepted.
+2024-12-16 23:26:29.286 +05:00 [DBG] Connection id "0HN8TVSKAROK8" started.
+2024-12-16 23:26:29.305 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-16 23:26:29.310 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-16 23:26:29.320 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-16 23:26:29.321 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 23:26:29.386 +05:00 [DBG] Connection id "0HN8TVSKAROK7" completed keep alive response.
+2024-12-16 23:26:29.388 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 83.5974ms
+2024-12-16 23:26:29.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-16 23:26:29.453 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-16 23:26:29.454 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 23:26:29.456 +05:00 [DBG] Connection id "0HN8TVSKAROK7" completed keep alive response.
+2024-12-16 23:26:29.457 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.3691ms
+2024-12-16 23:26:29.518 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-16 23:26:29.520 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-16 23:26:29.520 +05:00 [DBG] Request did not match any endpoints
+2024-12-16 23:26:29.597 +05:00 [DBG] Connection id "0HN8TVSKAROK7" completed keep alive response.
+2024-12-16 23:26:29.598 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.3352ms
+2024-12-16 23:27:32.313 +05:00 [DBG] Connection id "0HN8TVSKAROK8" received FIN.
+2024-12-16 23:27:32.316 +05:00 [DBG] Connection id "0HN8TVSKAROK8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-16 23:27:32.317 +05:00 [DBG] Connection id "0HN8TVSKAROK8" disconnecting.
+2024-12-16 23:27:32.319 +05:00 [DBG] Connection id "0HN8TVSKAROK8" stopped.
+2024-12-16 23:28:41.159 +05:00 [DBG] Connection id "0HN8TVSKAROK7" disconnecting.
+2024-12-16 23:28:41.160 +05:00 [DBG] Connection id "0HN8TVSKAROK7" stopped.
+2024-12-16 23:28:41.160 +05:00 [DBG] Connection id "0HN8TVSKAROK7" sending FIN because: "The Socket transport's send loop completed gracefully."

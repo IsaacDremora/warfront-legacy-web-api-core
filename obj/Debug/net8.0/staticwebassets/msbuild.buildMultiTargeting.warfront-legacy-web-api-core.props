@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\warfront-legacy-web-api-core.props" />
+</Project>

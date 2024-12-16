@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\warfront-legacy-web-api-core.props" />
+</Project>
