@@ -129,3 +129,4 @@ C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core\bin\Debug\net8.0\System
 C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core\obj\Debug\net8.0\warfront-legacy-web-api-core.sourcelink.json

@@ -59,11 +59,10 @@ if (builder.Environment.IsDevelopment())
     });
 }
 
-
-//app.MapGet("/", () => "Hello World!");
-
-
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+
+
+
 app.Run();

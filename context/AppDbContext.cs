@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 public class AppDbContext : DbContext
 {
     public DbSet<User> Users {get;set;}
+    public DbSet<PlayerInformation> PlayerInf {get;set;}
     public DbSet<Session> Sessions {get;set;}
     public DbSet<Flag> Flags {get;set;}
     public DbSet<WarriorUnit> WarriorUnits {get;set;}

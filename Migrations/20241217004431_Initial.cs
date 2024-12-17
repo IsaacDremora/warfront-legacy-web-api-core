@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Numerics;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -14,22 +13,20 @@ namespace warfront_legacy_web_api_core.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Users",
+                name: "PlayerInf",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    usernameHash = table.Column<string>(type: "text", nullable: false),
-                    passHash = table.Column<string>(type: "text", nullable: false),
-                    userName = table.Column<string>(type: "text", nullable: false),
+                    userName = table.Column<string>(type: "text", nullable: true),
                     birthDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     registrationDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    email = table.Column<string>(type: "text", nullable: false),
-                    expCount = table.Column<BigInteger>(type: "numeric", nullable: false)
+                    email = table.Column<string>(type: "text", nullable: true),
+                    expCount = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Users", x => x.id);
+                    table.PrimaryKey("PK_PlayerInf", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -38,19 +35,19 @@ namespace warfront_legacy_web_api_core.Migrations
                 {
                     id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    flagName = table.Column<string>(type: "text", nullable: false),
-                    imgURL = table.Column<string>(type: "text", nullable: false),
+                    flagName = table.Column<string>(type: "text", nullable: true),
+                    imgURL = table.Column<string>(type: "text", nullable: true),
                     isFree = table.Column<bool>(type: "boolean", nullable: false),
                     price = table.Column<float>(type: "real", nullable: false),
-                    Userid = table.Column<int>(type: "integer", nullable: true)
+                    PlayerInformationid = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Flags", x => x.id);
                     table.ForeignKey(
-                        name: "FK_Flags_Users_Userid",
-                        column: x => x.Userid,
-                        principalTable: "Users",
+                        name: "FK_Flags_PlayerInf_PlayerInformationid",
+                        column: x => x.PlayerInformationid,
+                        principalTable: "PlayerInf",
                         principalColumn: "id");
                 });
 
@@ -61,24 +58,42 @@ namespace warfront_legacy_web_api_core.Migrations
                     id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     sessionDateTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    winnerid = table.Column<int>(type: "integer", nullable: false),
-                    loserid = table.Column<int>(type: "integer", nullable: false)
+                    winnerid = table.Column<int>(type: "integer", nullable: true),
+                    loserid = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Sessions", x => x.id);
                     table.ForeignKey(
-                        name: "FK_Sessions_Users_loserid",
+                        name: "FK_Sessions_PlayerInf_loserid",
                         column: x => x.loserid,
-                        principalTable: "Users",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalTable: "PlayerInf",
+                        principalColumn: "id");
                     table.ForeignKey(
-                        name: "FK_Sessions_Users_winnerid",
+                        name: "FK_Sessions_PlayerInf_winnerid",
                         column: x => x.winnerid,
-                        principalTable: "Users",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalTable: "PlayerInf",
+                        principalColumn: "id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    usernameHash = table.Column<string>(type: "text", nullable: true),
+                    passHash = table.Column<string>(type: "text", nullable: true),
+                    playerInformationid = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_Users_PlayerInf_playerInformationid",
+                        column: x => x.playerInformationid,
+                        principalTable: "PlayerInf",
+                        principalColumn: "id");
                 });
 
             migrationBuilder.CreateTable(
@@ -87,26 +102,26 @@ namespace warfront_legacy_web_api_core.Migrations
                 {
                     id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    warrioirUnitSkinName = table.Column<string>(type: "text", nullable: false),
-                    warriorUnitSkinURL = table.Column<string>(type: "text", nullable: false),
+                    warrioirUnitSkinName = table.Column<string>(type: "text", nullable: true),
+                    warriorUnitSkinURL = table.Column<string>(type: "text", nullable: true),
                     isFree = table.Column<bool>(type: "boolean", nullable: false),
                     price = table.Column<float>(type: "real", nullable: false),
-                    Userid = table.Column<int>(type: "integer", nullable: true)
+                    PlayerInformationid = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_WarriorUnits", x => x.id);
                     table.ForeignKey(
-                        name: "FK_WarriorUnits_Users_Userid",
-                        column: x => x.Userid,
-                        principalTable: "Users",
+                        name: "FK_WarriorUnits_PlayerInf_PlayerInformationid",
+                        column: x => x.PlayerInformationid,
+                        principalTable: "PlayerInf",
                         principalColumn: "id");
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Flags_Userid",
+                name: "IX_Flags_PlayerInformationid",
                 table: "Flags",
-                column: "Userid");
+                column: "PlayerInformationid");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Sessions_loserid",
@@ -119,9 +134,14 @@ namespace warfront_legacy_web_api_core.Migrations
                 column: "winnerid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_WarriorUnits_Userid",
+                name: "IX_Users_playerInformationid",
+                table: "Users",
+                column: "playerInformationid");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_WarriorUnits_PlayerInformationid",
                 table: "WarriorUnits",
-                column: "Userid");
+                column: "PlayerInformationid");
         }
 
         /// <inheritdoc />
@@ -134,10 +154,13 @@ namespace warfront_legacy_web_api_core.Migrations
                 name: "Sessions");
 
             migrationBuilder.DropTable(
+                name: "Users");
+
+            migrationBuilder.DropTable(
                 name: "WarriorUnits");
 
             migrationBuilder.DropTable(
-                name: "Users");
+                name: "PlayerInf");
         }
     }
 }

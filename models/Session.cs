@@ -4,6 +4,6 @@ public class Session
 {
     public int id {get;set;}
     public DateTime sessionDateTime {get;set;}
-    public User? winner {get;set;}
-    public User? loser {get;set;}
+    public PlayerInformation? winner {get;set;}
+    public PlayerInformation? loser {get;set;}
 }

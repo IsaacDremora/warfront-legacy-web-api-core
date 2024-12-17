@@ -53,7 +53,7 @@ public class FlagController : ControllerBase
         var removeFlag = await _context.Flags.FirstOrDefaultAsync(d=> d.id == id);
         if (removeFlag is null) return NotFound();
         _context.Flags.Remove(removeFlag);
-        await _context.Flags.SingleAsync();
+        await _context.SaveChangesAsync();
         return NoContent();
     }
 }
