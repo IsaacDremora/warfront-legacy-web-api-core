@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace warfront_legacy_web_api_core.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241217004431_Initial")]
-    partial class Initial
+    [Migration("20241218212028_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,66 @@ namespace warfront_legacy_web_api_core.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("BuilderUnit", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<int?>("PlayerInformationid")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("bldUnitSkinName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("bldUnitSkinURL")
+                        .HasColumnType("text");
+
+                    b.Property<bool>("isFree")
+                        .HasColumnType("boolean");
+
+                    b.Property<float>("price")
+                        .HasColumnType("real");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("PlayerInformationid");
+
+                    b.ToTable("bldUnits");
+                });
+
+            modelBuilder.Entity("EngineerUnit", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<int?>("PlayerInformationid")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("engUnitSkinName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("engUnitSkinURL")
+                        .HasColumnType("text");
+
+                    b.Property<bool>("isFree")
+                        .HasColumnType("boolean");
+
+                    b.Property<float>("price")
+                        .HasColumnType("real");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("PlayerInformationid");
+
+                    b.ToTable("engUnits");
+                });
 
             modelBuilder.Entity("Flag", b =>
                 {
@@ -108,6 +168,36 @@ namespace warfront_legacy_web_api_core.Migrations
                     b.ToTable("Sessions");
                 });
 
+            modelBuilder.Entity("SniperUnit", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<int?>("PlayerInformationid")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("isFree")
+                        .HasColumnType("boolean");
+
+                    b.Property<float>("price")
+                        .HasColumnType("real");
+
+                    b.Property<string>("sniperUnitSkinName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("sniperUnitSkinURL")
+                        .HasColumnType("text");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("PlayerInformationid");
+
+                    b.ToTable("SniperUnits");
+                });
+
             modelBuilder.Entity("User", b =>
                 {
                     b.Property<int>("id")
@@ -162,6 +252,20 @@ namespace warfront_legacy_web_api_core.Migrations
                     b.ToTable("WarriorUnits");
                 });
 
+            modelBuilder.Entity("BuilderUnit", b =>
+                {
+                    b.HasOne("PlayerInformation", null)
+                        .WithMany("bldUnitAttribute")
+                        .HasForeignKey("PlayerInformationid");
+                });
+
+            modelBuilder.Entity("EngineerUnit", b =>
+                {
+                    b.HasOne("PlayerInformation", null)
+                        .WithMany("engUnitAttribute")
+                        .HasForeignKey("PlayerInformationid");
+                });
+
             modelBuilder.Entity("Flag", b =>
                 {
                     b.HasOne("PlayerInformation", null)
@@ -184,6 +288,13 @@ namespace warfront_legacy_web_api_core.Migrations
                     b.Navigation("winner");
                 });
 
+            modelBuilder.Entity("SniperUnit", b =>
+                {
+                    b.HasOne("PlayerInformation", null)
+                        .WithMany("SniperUnitAttribute")
+                        .HasForeignKey("PlayerInformationid");
+                });
+
             modelBuilder.Entity("User", b =>
                 {
                     b.HasOne("PlayerInformation", "playerInformation")
@@ -202,6 +313,12 @@ namespace warfront_legacy_web_api_core.Migrations
 
             modelBuilder.Entity("PlayerInformation", b =>
                 {
+                    b.Navigation("SniperUnitAttribute");
+
+                    b.Navigation("bldUnitAttribute");
+
+                    b.Navigation("engUnitAttribute");
+
                     b.Navigation("flagAttribute");
 
                     b.Navigation("warriorUnitAttribute");

@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace warfront_legacy_web_api_core.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -27,6 +27,50 @@ namespace warfront_legacy_web_api_core.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_PlayerInf", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "bldUnits",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    bldUnitSkinName = table.Column<string>(type: "text", nullable: true),
+                    bldUnitSkinURL = table.Column<string>(type: "text", nullable: true),
+                    isFree = table.Column<bool>(type: "boolean", nullable: false),
+                    price = table.Column<float>(type: "real", nullable: false),
+                    PlayerInformationid = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_bldUnits", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_bldUnits_PlayerInf_PlayerInformationid",
+                        column: x => x.PlayerInformationid,
+                        principalTable: "PlayerInf",
+                        principalColumn: "id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "engUnits",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    engUnitSkinName = table.Column<string>(type: "text", nullable: true),
+                    engUnitSkinURL = table.Column<string>(type: "text", nullable: true),
+                    isFree = table.Column<bool>(type: "boolean", nullable: false),
+                    price = table.Column<float>(type: "real", nullable: false),
+                    PlayerInformationid = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_engUnits", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_engUnits_PlayerInf_PlayerInformationid",
+                        column: x => x.PlayerInformationid,
+                        principalTable: "PlayerInf",
+                        principalColumn: "id");
                 });
 
             migrationBuilder.CreateTable(
@@ -77,6 +121,28 @@ namespace warfront_legacy_web_api_core.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "SniperUnits",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    sniperUnitSkinName = table.Column<string>(type: "text", nullable: true),
+                    sniperUnitSkinURL = table.Column<string>(type: "text", nullable: true),
+                    isFree = table.Column<bool>(type: "boolean", nullable: false),
+                    price = table.Column<float>(type: "real", nullable: false),
+                    PlayerInformationid = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SniperUnits", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_SniperUnits_PlayerInf_PlayerInformationid",
+                        column: x => x.PlayerInformationid,
+                        principalTable: "PlayerInf",
+                        principalColumn: "id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -119,6 +185,16 @@ namespace warfront_legacy_web_api_core.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_bldUnits_PlayerInformationid",
+                table: "bldUnits",
+                column: "PlayerInformationid");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_engUnits_PlayerInformationid",
+                table: "engUnits",
+                column: "PlayerInformationid");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Flags_PlayerInformationid",
                 table: "Flags",
                 column: "PlayerInformationid");
@@ -132,6 +208,11 @@ namespace warfront_legacy_web_api_core.Migrations
                 name: "IX_Sessions_winnerid",
                 table: "Sessions",
                 column: "winnerid");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_SniperUnits_PlayerInformationid",
+                table: "SniperUnits",
+                column: "PlayerInformationid");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Users_playerInformationid",
@@ -148,10 +229,19 @@ namespace warfront_legacy_web_api_core.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "bldUnits");
+
+            migrationBuilder.DropTable(
+                name: "engUnits");
+
+            migrationBuilder.DropTable(
                 name: "Flags");
 
             migrationBuilder.DropTable(
                 name: "Sessions");
+
+            migrationBuilder.DropTable(
+                name: "SniperUnits");
 
             migrationBuilder.DropTable(
                 name: "Users");

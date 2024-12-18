@@ -1,0 +1,395 @@
+2024-12-19 01:17:37.707 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-19 01:17:37.768 +05:00 [DBG] Hosting starting
+2024-12-19 01:17:37.802 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-19 01:17:37.802 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-19 01:17:37.804 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-19 01:17:37.805 +05:00 [INF] Hosting environment: Development
+2024-12-19 01:17:37.805 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-19 01:17:37.806 +05:00 [DBG] Hosting started
+2024-12-19 01:18:39.266 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" accepted.
+2024-12-19 01:18:39.268 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" started.
+2024-12-19 01:18:39.282 +05:00 [DBG] Connection id "0HN8VK4KE6OBC" accepted.
+2024-12-19 01:18:39.283 +05:00 [DBG] Connection id "0HN8VK4KE6OBC" started.
+2024-12-19 01:18:39.289 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-19 01:18:39.294 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-19 01:18:39.304 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-19 01:18:39.305 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 01:18:39.364 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" completed keep alive response.
+2024-12-19 01:18:39.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 78.5361ms
+2024-12-19 01:18:39.388 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-19 01:18:39.391 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-19 01:18:39.392 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 01:18:39.395 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" completed keep alive response.
+2024-12-19 01:18:39.396 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 7.5244ms
+2024-12-19 01:18:39.619 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-19 01:18:39.619 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/favicon-32x32.png - null null
+2024-12-19 01:18:39.620 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-19 01:18:39.621 +05:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2024-12-19 01:18:39.622 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 01:18:39.623 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 01:18:39.631 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-19 01:18:39.632 +05:00 [DBG] Connection id "0HN8VK4KE6OBC" completed keep alive response.
+2024-12-19 01:18:39.633 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/favicon-32x32.png - 200 628 image/png 14.323ms
+2024-12-19 01:18:39.693 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" completed keep alive response.
+2024-12-19 01:18:39.694 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.7143ms
+2024-12-19 01:18:43.731 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/SiperUnit - null null
+2024-12-19 01:18:43.736 +05:00 [DBG] 1 candidate(s) found for the request path '/api/SiperUnit'
+2024-12-19 01:18:43.739 +05:00 [DBG] Endpoint 'SiperUnitController.GetSniperUnit (warfront-legacy-web-api-core)' with route pattern 'api/SiperUnit' is valid for the request path '/api/SiperUnit'
+2024-12-19 01:18:43.740 +05:00 [DBG] Request matched endpoint 'SiperUnitController.GetSniperUnit (warfront-legacy-web-api-core)'
+2024-12-19 01:18:43.741 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-19 01:18:43.747 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-19 01:18:43.749 +05:00 [INF] Executing endpoint 'SiperUnitController.GetSniperUnit (warfront-legacy-web-api-core)'
+2024-12-19 01:18:43.767 +05:00 [INF] Route matched with {action = "GetSniperUnit", controller = "SiperUnit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SniperUnit]]] GetSniperUnit() on controller SiperUnitController (warfront-legacy-web-api-core).
+2024-12-19 01:18:43.769 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-19 01:18:43.771 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-19 01:18:43.771 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-19 01:18:43.772 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-19 01:18:43.773 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-19 01:18:43.776 +05:00 [DBG] Executing controller factory for controller SiperUnitController (warfront-legacy-web-api-core)
+2024-12-19 01:18:43.806 +05:00 [DBG] Executed controller factory for controller SiperUnitController (warfront-legacy-web-api-core)
+2024-12-19 01:18:44.317 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-19 01:18:44.319 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-19 01:18:44.320 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-19 01:18:44.321 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-19 01:18:44.322 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-19 01:18:44.322 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-19 01:18:44.323 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SniperUnit, warfront-legacy-web-api-core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-19 01:18:44.349 +05:00 [INF] Executed action SiperUnitController.GetSniperUnit (warfront-legacy-web-api-core) in 573.0424ms
+2024-12-19 01:18:44.350 +05:00 [INF] Executed endpoint 'SiperUnitController.GetSniperUnit (warfront-legacy-web-api-core)'
+2024-12-19 01:18:44.351 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" completed keep alive response.
+2024-12-19 01:18:44.356 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/SiperUnit - 200 null application/json; charset=utf-8 625.0895ms
+2024-12-19 01:18:48.877 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/SiperUnit/1 - null null
+2024-12-19 01:18:48.881 +05:00 [DBG] 1 candidate(s) found for the request path '/api/SiperUnit/1'
+2024-12-19 01:18:48.882 +05:00 [DBG] Endpoint 'SiperUnitController.GetSniperUnitById (warfront-legacy-web-api-core)' with route pattern 'api/SiperUnit/{id}' is valid for the request path '/api/SiperUnit/1'
+2024-12-19 01:18:48.883 +05:00 [DBG] Request matched endpoint 'SiperUnitController.GetSniperUnitById (warfront-legacy-web-api-core)'
+2024-12-19 01:18:48.884 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-19 01:18:48.884 +05:00 [INF] Executing endpoint 'SiperUnitController.GetSniperUnitById (warfront-legacy-web-api-core)'
+2024-12-19 01:18:48.893 +05:00 [INF] Route matched with {action = "GetSniperUnitById", controller = "SiperUnit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SniperUnit]] GetSniperUnitById(Int32) on controller SiperUnitController (warfront-legacy-web-api-core).
+2024-12-19 01:18:48.894 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-19 01:18:48.895 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-19 01:18:48.896 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-19 01:18:48.897 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-19 01:18:48.897 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-19 01:18:48.898 +05:00 [DBG] Executing controller factory for controller SiperUnitController (warfront-legacy-web-api-core)
+2024-12-19 01:18:48.901 +05:00 [DBG] Executed controller factory for controller SiperUnitController (warfront-legacy-web-api-core)
+2024-12-19 01:18:48.906 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-19 01:18:48.908 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-19 01:18:48.909 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 01:18:48.910 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 01:18:48.910 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-19 01:18:48.912 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-19 01:18:48.978 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-19 01:18:48.980 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-12-19 01:18:48.981 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-19 01:18:48.982 +05:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-12-19 01:18:48.983 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-12-19 01:18:48.984 +05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-12-19 01:18:48.998 +05:00 [INF] Executed action SiperUnitController.GetSniperUnitById (warfront-legacy-web-api-core) in 99.6104ms
+2024-12-19 01:18:48.999 +05:00 [INF] Executed endpoint 'SiperUnitController.GetSniperUnitById (warfront-legacy-web-api-core)'
+2024-12-19 01:18:49.000 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" completed keep alive response.
+2024-12-19 01:18:49.000 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/SiperUnit/1 - 404 null application/problem+json; charset=utf-8 122.7938ms
+2024-12-19 01:20:51.326 +05:00 [DBG] Connection id "0HN8VK4KE6OBC" disconnecting.
+2024-12-19 01:20:51.327 +05:00 [DBG] Connection id "0HN8VK4KE6OBC" stopped.
+2024-12-19 01:20:51.328 +05:00 [DBG] Connection id "0HN8VK4KE6OBC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-19 01:20:59.409 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" disconnecting.
+2024-12-19 01:20:59.410 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" stopped.
+2024-12-19 01:20:59.410 +05:00 [DBG] Connection id "0HN8VK4KE6OBB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-19 01:23:37.415 +05:00 [INF] Application is shutting down...
+2024-12-19 01:23:37.415 +05:00 [DBG] Hosting stopping
+2024-12-19 01:23:37.419 +05:00 [DBG] Hosting stopped
+2024-12-19 02:23:14.133 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-19 02:23:14.221 +05:00 [DBG] Hosting starting
+2024-12-19 02:23:14.263 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-19 02:23:14.264 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-19 02:23:14.265 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-19 02:23:14.266 +05:00 [INF] Hosting environment: Development
+2024-12-19 02:23:14.266 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-19 02:23:14.267 +05:00 [DBG] Hosting started
+2024-12-19 02:23:16.290 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" accepted.
+2024-12-19 02:23:16.292 +05:00 [DBG] Connection id "0HN8VL8NSCBEG" accepted.
+2024-12-19 02:23:16.292 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" started.
+2024-12-19 02:23:16.293 +05:00 [DBG] Connection id "0HN8VL8NSCBEG" started.
+2024-12-19 02:23:16.315 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-19 02:23:16.321 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-19 02:23:16.332 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-19 02:23:16.333 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 02:23:16.400 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" completed keep alive response.
+2024-12-19 02:23:16.402 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 88.1341ms
+2024-12-19 02:23:16.490 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-19 02:23:16.491 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-19 02:23:16.492 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 02:23:16.495 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" completed keep alive response.
+2024-12-19 02:23:16.496 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.331ms
+2024-12-19 02:23:16.567 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-19 02:23:16.568 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-19 02:23:16.569 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 02:23:16.640 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" completed keep alive response.
+2024-12-19 02:23:16.641 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.3153ms
+2024-12-19 02:24:16.377 +05:00 [DBG] Connection id "0HN8VL8NSCBEG" received FIN.
+2024-12-19 02:24:16.381 +05:00 [DBG] Connection id "0HN8VL8NSCBEG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-19 02:24:16.382 +05:00 [DBG] Connection id "0HN8VL8NSCBEG" disconnecting.
+2024-12-19 02:24:16.384 +05:00 [DBG] Connection id "0HN8VL8NSCBEG" stopped.
+2024-12-19 02:25:28.283 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" disconnecting.
+2024-12-19 02:25:28.284 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" stopped.
+2024-12-19 02:25:28.284 +05:00 [DBG] Connection id "0HN8VL8NSCBEF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-19 03:03:30.418 +05:00 [INF] Application is shutting down...
+2024-12-19 03:03:30.419 +05:00 [DBG] Hosting stopping
+2024-12-19 03:03:30.422 +05:00 [DBG] Hosting stopped
+2024-12-19 03:03:42.623 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-19 03:03:42.688 +05:00 [DBG] Hosting starting
+2024-12-19 03:03:42.723 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-19 03:03:42.723 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-19 03:03:42.725 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-19 03:03:42.725 +05:00 [INF] Hosting environment: Development
+2024-12-19 03:03:42.726 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-19 03:03:42.727 +05:00 [DBG] Hosting started
+2024-12-19 03:03:43.937 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" accepted.
+2024-12-19 03:03:43.938 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" started.
+2024-12-19 03:03:43.938 +05:00 [DBG] Connection id "0HN8VLVBC7E4L" accepted.
+2024-12-19 03:03:43.940 +05:00 [DBG] Connection id "0HN8VLVBC7E4L" started.
+2024-12-19 03:03:43.972 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-19 03:03:43.978 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-19 03:03:43.990 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-19 03:03:43.991 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 03:03:44.058 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:03:44.060 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 89.1287ms
+2024-12-19 03:03:44.154 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-19 03:03:44.156 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-19 03:03:44.157 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 03:03:44.159 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:03:44.160 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 6.2774ms
+2024-12-19 03:03:44.218 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-19 03:03:44.220 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-19 03:03:44.221 +05:00 [DBG] Request did not match any endpoints
+2024-12-19 03:03:44.301 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:03:44.302 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.4652ms
+2024-12-19 03:04:04.129 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5262/api/BuilderUnit - application/json 111
+2024-12-19 03:04:04.137 +05:00 [DBG] 1 candidate(s) found for the request path '/api/BuilderUnit'
+2024-12-19 03:04:04.141 +05:00 [DBG] Endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)' with route pattern 'api/BuilderUnit' is valid for the request path '/api/BuilderUnit'
+2024-12-19 03:04:04.143 +05:00 [DBG] Request matched endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:04.144 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-19 03:04:04.149 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-19 03:04:04.151 +05:00 [INF] Executing endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:04.172 +05:00 [INF] Route matched with {action = "PostBldUnit", controller = "BuilderUnit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BuilderUnit]] PostBldUnit(BuilderUnit) on controller BuilderUnitController (warfront-legacy-web-api-core).
+2024-12-19 03:04:04.177 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-19 03:04:04.178 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-19 03:04:04.179 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-19 03:04:04.180 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-19 03:04:04.181 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-19 03:04:04.183 +05:00 [DBG] Executing controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:04.218 +05:00 [DBG] Executed controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:04.222 +05:00 [DBG] Attempting to bind parameter 'unit' of type 'BuilderUnit' ...
+2024-12-19 03:04:04.223 +05:00 [DBG] Attempting to bind parameter 'unit' of type 'BuilderUnit' using the name '' in request data ...
+2024-12-19 03:04:04.225 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-12-19 03:04:04.249 +05:00 [DBG] Connection id "0HN8VLVBC7E4K", Request id "0HN8VLVBC7E4K:00000004": started reading request body.
+2024-12-19 03:04:04.250 +05:00 [DBG] Connection id "0HN8VLVBC7E4K", Request id "0HN8VLVBC7E4K:00000004": done reading request body.
+2024-12-19 03:04:04.265 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'BuilderUnit'
+2024-12-19 03:04:04.266 +05:00 [DBG] Done attempting to bind parameter 'unit' of type 'BuilderUnit'.
+2024-12-19 03:04:04.267 +05:00 [DBG] Done attempting to bind parameter 'unit' of type 'BuilderUnit'.
+2024-12-19 03:04:04.268 +05:00 [DBG] Attempting to validate the bound parameter 'unit' of type 'BuilderUnit' ...
+2024-12-19 03:04:04.274 +05:00 [DBG] Done attempting to validate the bound parameter 'unit' of type 'BuilderUnit'.
+2024-12-19 03:04:04.826 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-19 03:04:04.828 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-19 03:04:04.829 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-19 03:04:04.830 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-19 03:04:04.830 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-19 03:04:04.831 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-19 03:04:04.832 +05:00 [INF] Executing OkObjectResult, writing value of type 'BuilderUnit'.
+2024-12-19 03:04:04.843 +05:00 [INF] Executed action BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core) in 659.3193ms
+2024-12-19 03:04:04.844 +05:00 [INF] Executed endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:04.846 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:04:04.850 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5262/api/BuilderUnit - 200 null application/json; charset=utf-8 720.815ms
+2024-12-19 03:04:08.001 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5262/api/BuilderUnit - application/json 111
+2024-12-19 03:04:08.004 +05:00 [DBG] 1 candidate(s) found for the request path '/api/BuilderUnit'
+2024-12-19 03:04:08.004 +05:00 [DBG] Endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)' with route pattern 'api/BuilderUnit' is valid for the request path '/api/BuilderUnit'
+2024-12-19 03:04:08.005 +05:00 [DBG] Request matched endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:08.006 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-19 03:04:08.007 +05:00 [INF] Executing endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:08.008 +05:00 [INF] Route matched with {action = "PostBldUnit", controller = "BuilderUnit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BuilderUnit]] PostBldUnit(BuilderUnit) on controller BuilderUnitController (warfront-legacy-web-api-core).
+2024-12-19 03:04:08.009 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-19 03:04:08.010 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-19 03:04:08.010 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-19 03:04:08.011 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-19 03:04:08.012 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-19 03:04:08.013 +05:00 [DBG] Executing controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:08.016 +05:00 [DBG] Executed controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:08.017 +05:00 [DBG] Attempting to bind parameter 'unit' of type 'BuilderUnit' ...
+2024-12-19 03:04:08.017 +05:00 [DBG] Attempting to bind parameter 'unit' of type 'BuilderUnit' using the name '' in request data ...
+2024-12-19 03:04:08.018 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-12-19 03:04:08.019 +05:00 [DBG] Connection id "0HN8VLVBC7E4K", Request id "0HN8VLVBC7E4K:00000005": started reading request body.
+2024-12-19 03:04:08.020 +05:00 [DBG] Connection id "0HN8VLVBC7E4K", Request id "0HN8VLVBC7E4K:00000005": done reading request body.
+2024-12-19 03:04:08.021 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'BuilderUnit'
+2024-12-19 03:04:08.021 +05:00 [DBG] Done attempting to bind parameter 'unit' of type 'BuilderUnit'.
+2024-12-19 03:04:08.022 +05:00 [DBG] Done attempting to bind parameter 'unit' of type 'BuilderUnit'.
+2024-12-19 03:04:08.023 +05:00 [DBG] Attempting to validate the bound parameter 'unit' of type 'BuilderUnit' ...
+2024-12-19 03:04:08.024 +05:00 [DBG] Done attempting to validate the bound parameter 'unit' of type 'BuilderUnit'.
+2024-12-19 03:04:08.076 +05:00 [INF] Executed action BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core) in 62.7409ms
+2024-12-19 03:04:08.078 +05:00 [INF] Executed endpoint 'BuilderUnitController.PostBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:08.106 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_bldUnits"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_bldUnits"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: bldUnits
+    ConstraintName: PK_bldUnits
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BuilderUnitController.PostBldUnit(BuilderUnit unit) in C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core\controllers\BuilderUnitController.cs:line 30
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-19 03:04:08.125 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:04:08.126 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5262/api/BuilderUnit - 500 null text/plain; charset=utf-8 124.9679ms
+2024-12-19 03:04:14.117 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/BuilderUnit/1 - null null
+2024-12-19 03:04:14.119 +05:00 [DBG] 1 candidate(s) found for the request path '/api/BuilderUnit/1'
+2024-12-19 03:04:14.119 +05:00 [DBG] Endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)' with route pattern 'api/BuilderUnit/{id}' is valid for the request path '/api/BuilderUnit/1'
+2024-12-19 03:04:14.120 +05:00 [DBG] Request matched endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)'
+2024-12-19 03:04:14.121 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-19 03:04:14.121 +05:00 [INF] Executing endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)'
+2024-12-19 03:04:14.127 +05:00 [INF] Route matched with {action = "GetBldUnitById", controller = "BuilderUnit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BuilderUnit]] GetBldUnitById(Int32) on controller BuilderUnitController (warfront-legacy-web-api-core).
+2024-12-19 03:04:14.128 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-19 03:04:14.129 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-19 03:04:14.130 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-19 03:04:14.131 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-19 03:04:14.131 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-19 03:04:14.132 +05:00 [DBG] Executing controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:14.134 +05:00 [DBG] Executed controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:14.135 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-19 03:04:14.136 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-19 03:04:14.137 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:14.138 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:14.139 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-19 03:04:14.140 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:14.288 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-19 03:04:14.289 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-19 03:04:14.290 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-19 03:04:14.291 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-19 03:04:14.291 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-19 03:04:14.292 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-19 03:04:14.292 +05:00 [INF] Executing OkObjectResult, writing value of type 'BuilderUnit'.
+2024-12-19 03:04:14.293 +05:00 [INF] Executed action BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core) in 161.1278ms
+2024-12-19 03:04:14.294 +05:00 [INF] Executed endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)'
+2024-12-19 03:04:14.295 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:04:14.295 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/BuilderUnit/1 - 200 null application/json; charset=utf-8 178.4154ms
+2024-12-19 03:04:21.113 +05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5262/api/BuilderUnit/1 - application/json 110
+2024-12-19 03:04:21.114 +05:00 [DBG] 1 candidate(s) found for the request path '/api/BuilderUnit/1'
+2024-12-19 03:04:21.115 +05:00 [DBG] Endpoint 'BuilderUnitController.PutBldUnit (warfront-legacy-web-api-core)' with route pattern 'api/BuilderUnit/{id}' is valid for the request path '/api/BuilderUnit/1'
+2024-12-19 03:04:21.116 +05:00 [DBG] Request matched endpoint 'BuilderUnitController.PutBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:21.117 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-19 03:04:21.117 +05:00 [INF] Executing endpoint 'BuilderUnitController.PutBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:21.122 +05:00 [INF] Route matched with {action = "PutBldUnit", controller = "BuilderUnit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BuilderUnit]] PutBldUnit(Int32, BuilderUnit) on controller BuilderUnitController (warfront-legacy-web-api-core).
+2024-12-19 03:04:21.123 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-19 03:04:21.124 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-19 03:04:21.124 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-19 03:04:21.125 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-19 03:04:21.126 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-19 03:04:21.127 +05:00 [DBG] Executing controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:21.128 +05:00 [DBG] Executed controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:21.129 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-19 03:04:21.129 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-19 03:04:21.130 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:21.131 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:21.132 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-19 03:04:21.132 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:21.133 +05:00 [DBG] Attempting to bind parameter 'newunit' of type 'BuilderUnit' ...
+2024-12-19 03:04:21.134 +05:00 [DBG] Attempting to bind parameter 'newunit' of type 'BuilderUnit' using the name '' in request data ...
+2024-12-19 03:04:21.135 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-12-19 03:04:21.136 +05:00 [DBG] Connection id "0HN8VLVBC7E4K", Request id "0HN8VLVBC7E4K:00000007": started reading request body.
+2024-12-19 03:04:21.136 +05:00 [DBG] Connection id "0HN8VLVBC7E4K", Request id "0HN8VLVBC7E4K:00000007": done reading request body.
+2024-12-19 03:04:21.137 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'BuilderUnit'
+2024-12-19 03:04:21.138 +05:00 [DBG] Done attempting to bind parameter 'newunit' of type 'BuilderUnit'.
+2024-12-19 03:04:21.139 +05:00 [DBG] Done attempting to bind parameter 'newunit' of type 'BuilderUnit'.
+2024-12-19 03:04:21.140 +05:00 [DBG] Attempting to validate the bound parameter 'newunit' of type 'BuilderUnit' ...
+2024-12-19 03:04:21.141 +05:00 [DBG] Done attempting to validate the bound parameter 'newunit' of type 'BuilderUnit'.
+2024-12-19 03:04:21.153 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-19 03:04:21.154 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-19 03:04:21.155 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-19 03:04:21.156 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-19 03:04:21.156 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-19 03:04:21.157 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-19 03:04:21.157 +05:00 [INF] Executing OkObjectResult, writing value of type 'BuilderUnit'.
+2024-12-19 03:04:21.158 +05:00 [INF] Executed action BuilderUnitController.PutBldUnit (warfront-legacy-web-api-core) in 31.3514ms
+2024-12-19 03:04:21.159 +05:00 [INF] Executed endpoint 'BuilderUnitController.PutBldUnit (warfront-legacy-web-api-core)'
+2024-12-19 03:04:21.160 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:04:21.161 +05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5262/api/BuilderUnit/1 - 200 null application/json; charset=utf-8 47.9275ms
+2024-12-19 03:04:31.775 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/BuilderUnit/1 - null null
+2024-12-19 03:04:31.777 +05:00 [DBG] 1 candidate(s) found for the request path '/api/BuilderUnit/1'
+2024-12-19 03:04:31.777 +05:00 [DBG] Endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)' with route pattern 'api/BuilderUnit/{id}' is valid for the request path '/api/BuilderUnit/1'
+2024-12-19 03:04:31.778 +05:00 [DBG] Request matched endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)'
+2024-12-19 03:04:31.779 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-19 03:04:31.779 +05:00 [INF] Executing endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)'
+2024-12-19 03:04:31.780 +05:00 [INF] Route matched with {action = "GetBldUnitById", controller = "BuilderUnit"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BuilderUnit]] GetBldUnitById(Int32) on controller BuilderUnitController (warfront-legacy-web-api-core).
+2024-12-19 03:04:31.781 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-19 03:04:31.782 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-19 03:04:31.782 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-19 03:04:31.783 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-19 03:04:31.784 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-19 03:04:31.785 +05:00 [DBG] Executing controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:31.786 +05:00 [DBG] Executed controller factory for controller BuilderUnitController (warfront-legacy-web-api-core)
+2024-12-19 03:04:31.787 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-12-19 03:04:31.788 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-12-19 03:04:31.788 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:31.789 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:31.790 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-12-19 03:04:31.791 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-12-19 03:04:31.793 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-19 03:04:31.794 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-12-19 03:04:31.795 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-12-19 03:04:31.796 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-19 03:04:31.796 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-19 03:04:31.797 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-19 03:04:31.797 +05:00 [INF] Executing OkObjectResult, writing value of type 'BuilderUnit'.
+2024-12-19 03:04:31.798 +05:00 [INF] Executed action BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core) in 13.0074ms
+2024-12-19 03:04:31.799 +05:00 [INF] Executed endpoint 'BuilderUnitController.GetBldUnitById (warfront-legacy-web-api-core)'
+2024-12-19 03:04:31.800 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" completed keep alive response.
+2024-12-19 03:04:31.800 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/BuilderUnit/1 - 200 null application/json; charset=utf-8 25.2356ms
+2024-12-19 03:04:44.078 +05:00 [DBG] Connection id "0HN8VLVBC7E4L" received FIN.
+2024-12-19 03:04:44.079 +05:00 [DBG] Connection id "0HN8VLVBC7E4L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-19 03:04:44.080 +05:00 [DBG] Connection id "0HN8VLVBC7E4L" disconnecting.
+2024-12-19 03:04:44.081 +05:00 [DBG] Connection id "0HN8VLVBC7E4L" stopped.
+2024-12-19 03:06:42.205 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" disconnecting.
+2024-12-19 03:06:42.206 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" stopped.
+2024-12-19 03:06:42.206 +05:00 [DBG] Connection id "0HN8VLVBC7E4K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-19 03:18:16.396 +05:00 [INF] Application is shutting down...
+2024-12-19 03:18:16.396 +05:00 [DBG] Hosting stopping
+2024-12-19 03:18:16.400 +05:00 [DBG] Hosting stopped

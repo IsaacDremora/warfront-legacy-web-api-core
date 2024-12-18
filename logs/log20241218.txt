@@ -1,0 +1,80 @@
+2024-12-18 23:56:43.011 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-18 23:56:43.121 +05:00 [DBG] Hosting starting
+2024-12-18 23:56:43.185 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-18 23:56:43.185 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-18 23:56:43.187 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 23:56:43.188 +05:00 [INF] Hosting environment: Development
+2024-12-18 23:56:43.188 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-18 23:56:43.189 +05:00 [DBG] Hosting started
+2024-12-18 23:56:45.777 +05:00 [DBG] Connection id "0HN8VIMS3GPQR" accepted.
+2024-12-18 23:56:45.778 +05:00 [DBG] Connection id "0HN8VIMS3GPQR" started.
+2024-12-18 23:56:45.779 +05:00 [DBG] Connection id "0HN8VIMS3GPQS" accepted.
+2024-12-18 23:56:45.834 +05:00 [DBG] Connection id "0HN8VIMS3GPQS" started.
+2024-12-18 23:56:45.863 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-18 23:56:45.868 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-18 23:56:45.880 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-18 23:56:45.881 +05:00 [DBG] Request did not match any endpoints
+2024-12-18 23:56:45.955 +05:00 [DBG] Connection id "0HN8VIMS3GPQR" completed keep alive response.
+2024-12-18 23:56:45.957 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 95.1611ms
+2024-12-18 23:56:45.971 +05:00 [DBG] Connection id "0HN8VIMS3GPQT" accepted.
+2024-12-18 23:56:45.972 +05:00 [DBG] Connection id "0HN8VIMS3GPQT" started.
+2024-12-18 23:56:45.972 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.css - null null
+2024-12-18 23:56:45.973 +05:00 [DBG] Connection id "0HN8VIMS3GPQU" accepted.
+2024-12-18 23:56:45.973 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger-ui.css - null null
+2024-12-18 23:56:45.973 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger-ui-bundle.js - null null
+2024-12-18 23:56:45.974 +05:00 [DBG] No candidates found for the request path '/index.css'
+2024-12-18 23:56:45.975 +05:00 [DBG] Connection id "0HN8VIMS3GPQU" started.
+2024-12-18 23:56:45.975 +05:00 [DBG] Connection id "0HN8VIMS3GPQV" accepted.
+2024-12-18 23:56:45.977 +05:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2024-12-18 23:56:45.978 +05:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2024-12-18 23:56:45.979 +05:00 [DBG] Request did not match any endpoints
+2024-12-18 23:56:45.979 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger-ui-standalone-preset.js - null null
+2024-12-18 23:56:45.980 +05:00 [DBG] Connection id "0HN8VIMS3GPQV" started.
+2024-12-18 23:56:45.980 +05:00 [DBG] Request did not match any endpoints
+2024-12-18 23:56:45.981 +05:00 [DBG] Request did not match any endpoints
+2024-12-18 23:56:45.983 +05:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2024-12-18 23:56:45.984 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-18 23:56:45.987 +05:00 [DBG] Request did not match any endpoints
+2024-12-18 23:56:45.988 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-18 23:56:45.990 +05:00 [DBG] Request did not match any endpoints
+2024-12-18 23:56:45.990 +05:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-12-18 23:56:45.990 +05:00 [INF] The file /swagger-ui.css was not modified
+2024-12-18 23:56:45.990 +05:00 [INF] The file /index.css was not modified
+2024-12-18 23:56:45.990 +05:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-12-18 23:56:45.991 +05:00 [DBG] Connection id "0HN8VIMS3GPQV" completed keep alive response.
+2024-12-18 23:56:45.994 +05:00 [DBG] Handled. Status code: 304 File: /swagger-ui.css
+2024-12-18 23:56:45.994 +05:00 [DBG] Handled. Status code: 304 File: /swagger-ui-bundle.js
+2024-12-18 23:56:45.994 +05:00 [DBG] Handled. Status code: 304 File: /index.css
+2024-12-18 23:56:45.994 +05:00 [DBG] Handled. Status code: 304 File: /swagger-ui-standalone-preset.js
+2024-12-18 23:56:45.994 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 10.1704ms
+2024-12-18 23:56:45.995 +05:00 [DBG] Connection id "0HN8VIMS3GPQR" completed keep alive response.
+2024-12-18 23:56:45.995 +05:00 [DBG] Connection id "0HN8VIMS3GPQT" completed keep alive response.
+2024-12-18 23:56:45.996 +05:00 [DBG] Connection id "0HN8VIMS3GPQS" completed keep alive response.
+2024-12-18 23:56:45.997 +05:00 [DBG] Connection id "0HN8VIMS3GPQU" completed keep alive response.
+2024-12-18 23:56:46.000 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger-ui.css - 304 null text/css 27.8633ms
+2024-12-18 23:56:46.001 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger-ui-bundle.js - 304 null text/javascript 27.7823ms
+2024-12-18 23:56:46.002 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.css - 304 null text/css 29.335ms
+2024-12-18 23:56:46.002 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger-ui-standalone-preset.js - 304 null text/javascript 23.2227ms
+2024-12-18 23:56:46.190 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-18 23:56:46.192 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-18 23:56:46.192 +05:00 [DBG] Request did not match any endpoints
+2024-12-18 23:56:46.258 +05:00 [DBG] Connection id "0HN8VIMS3GPQU" completed keep alive response.
+2024-12-18 23:56:46.258 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.0772ms
+2024-12-18 23:58:53.897 +05:00 [INF] Application is shutting down...
+2024-12-18 23:58:53.897 +05:00 [DBG] Hosting stopping
+2024-12-18 23:58:53.901 +05:00 [DBG] Connection id "0HN8VIMS3GPQU" disconnecting.
+2024-12-18 23:58:53.901 +05:00 [DBG] Connection id "0HN8VIMS3GPQR" disconnecting.
+2024-12-18 23:58:53.902 +05:00 [DBG] Connection id "0HN8VIMS3GPQU" stopped.
+2024-12-18 23:58:53.901 +05:00 [DBG] Connection id "0HN8VIMS3GPQT" disconnecting.
+2024-12-18 23:58:53.901 +05:00 [DBG] Connection id "0HN8VIMS3GPQV" disconnecting.
+2024-12-18 23:58:53.901 +05:00 [DBG] Connection id "0HN8VIMS3GPQS" disconnecting.
+2024-12-18 23:58:53.902 +05:00 [DBG] Connection id "0HN8VIMS3GPQR" stopped.
+2024-12-18 23:58:53.903 +05:00 [DBG] Connection id "0HN8VIMS3GPQT" stopped.
+2024-12-18 23:58:53.903 +05:00 [DBG] Connection id "0HN8VIMS3GPQV" stopped.
+2024-12-18 23:58:53.904 +05:00 [DBG] Connection id "0HN8VIMS3GPQS" stopped.
+2024-12-18 23:58:53.905 +05:00 [DBG] Connection id "0HN8VIMS3GPQU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-18 23:58:53.905 +05:00 [DBG] Connection id "0HN8VIMS3GPQT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-18 23:58:53.905 +05:00 [DBG] Connection id "0HN8VIMS3GPQR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-18 23:58:53.905 +05:00 [DBG] Connection id "0HN8VIMS3GPQV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-18 23:58:53.906 +05:00 [DBG] Connection id "0HN8VIMS3GPQS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-18 23:58:53.910 +05:00 [DBG] Hosting stopped

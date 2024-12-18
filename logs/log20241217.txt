@@ -812,3 +812,70 @@
 2024-12-17 06:02:13.621 +05:00 [DBG] Connection id "0HN8U6OUOGKFK" stopped.
 2024-12-17 06:02:13.621 +05:00 [DBG] Connection id "0HN8U6OUOGKFK" sending FIN because: "The Socket transport's send loop completed gracefully."
 2024-12-17 06:02:13.623 +05:00 [DBG] Hosting stopped
+2024-12-17 06:18:02.432 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-17 06:18:02.493 +05:00 [DBG] Hosting starting
+2024-12-17 06:18:02.525 +05:00 [INF] Now listening on: http://localhost:5262
+2024-12-17 06:18:02.526 +05:00 [DBG] Loaded hosting startup assembly warfront-legacy-web-api-core
+2024-12-17 06:18:02.527 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-17 06:18:02.528 +05:00 [INF] Hosting environment: Development
+2024-12-17 06:18:02.528 +05:00 [INF] Content root path: C:\Users\Daniil\Desktop\web\warfront-legacy-web-api-core
+2024-12-17 06:18:02.529 +05:00 [DBG] Hosting started
+2024-12-17 06:18:05.196 +05:00 [DBG] Connection id "0HN8U72K9E7VF" accepted.
+2024-12-17 06:18:05.197 +05:00 [DBG] Connection id "0HN8U72K9E7VF" started.
+2024-12-17 06:18:05.197 +05:00 [DBG] Connection id "0HN8U72K9E7VG" accepted.
+2024-12-17 06:18:05.198 +05:00 [DBG] Connection id "0HN8U72K9E7VG" started.
+2024-12-17 06:18:05.215 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.html - null null
+2024-12-17 06:18:05.220 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-17 06:18:05.229 +05:00 [DBG] No candidates found for the request path '/index.html'
+2024-12-17 06:18:05.230 +05:00 [DBG] Request did not match any endpoints
+2024-12-17 06:18:05.285 +05:00 [DBG] Connection id "0HN8U72K9E7VF" completed keep alive response.
+2024-12-17 06:18:05.287 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.html - 200 null text/html;charset=utf-8 72.9482ms
+2024-12-17 06:18:05.306 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/index.js - null null
+2024-12-17 06:18:05.309 +05:00 [DBG] No candidates found for the request path '/index.js'
+2024-12-17 06:18:05.310 +05:00 [DBG] Request did not match any endpoints
+2024-12-17 06:18:05.312 +05:00 [DBG] Connection id "0HN8U72K9E7VF" completed keep alive response.
+2024-12-17 06:18:05.314 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/index.js - 200 null application/javascript;charset=utf-8 7.0867ms
+2024-12-17 06:18:05.432 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - null null
+2024-12-17 06:18:05.434 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-17 06:18:05.434 +05:00 [DBG] Request did not match any endpoints
+2024-12-17 06:18:05.501 +05:00 [DBG] Connection id "0HN8U72K9E7VF" completed keep alive response.
+2024-12-17 06:18:05.502 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.3422ms
+2024-12-17 06:18:11.736 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/flag - null null
+2024-12-17 06:18:11.738 +05:00 [DBG] No candidates found for the request path '/flag'
+2024-12-17 06:18:11.739 +05:00 [DBG] Request did not match any endpoints
+2024-12-17 06:18:11.740 +05:00 [DBG] The request path /flag does not match a supported file type
+2024-12-17 06:18:11.744 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-17 06:18:11.745 +05:00 [DBG] Connection id "0HN8U72K9E7VF" completed keep alive response.
+2024-12-17 06:18:11.746 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/flag - 404 0 null 9.5962ms
+2024-12-17 06:18:11.750 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5262/flag, Response status code: 404
+2024-12-17 06:18:18.770 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5262/api/flag - null null
+2024-12-17 06:18:18.775 +05:00 [DBG] 1 candidate(s) found for the request path '/api/flag'
+2024-12-17 06:18:18.779 +05:00 [DBG] Endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)' with route pattern 'api/Flag' is valid for the request path '/api/flag'
+2024-12-17 06:18:18.780 +05:00 [DBG] Request matched endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)'
+2024-12-17 06:18:18.781 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-17 06:18:18.782 +05:00 [INF] Executing endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)'
+2024-12-17 06:18:18.794 +05:00 [INF] Route matched with {action = "GetAllFlags", controller = "Flag"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Flag]]] GetAllFlags() on controller FlagController (warfront-legacy-web-api-core).
+2024-12-17 06:18:18.797 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-17 06:18:18.798 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-17 06:18:18.799 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-17 06:18:18.800 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-17 06:18:18.800 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-17 06:18:18.802 +05:00 [DBG] Executing controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-17 06:18:18.832 +05:00 [DBG] Executed controller factory for controller FlagController (warfront-legacy-web-api-core)
+2024-12-17 06:18:19.278 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-17 06:18:19.284 +05:00 [DBG] No information found on request to perform content negotiation.
+2024-12-17 06:18:19.285 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-17 06:18:19.285 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-17 06:18:19.286 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-17 06:18:19.287 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Flag, warfront-legacy-web-api-core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-17 06:18:19.311 +05:00 [INF] Executed action FlagController.GetAllFlags (warfront-legacy-web-api-core) in 507.5383ms
+2024-12-17 06:18:19.312 +05:00 [INF] Executed endpoint 'FlagController.GetAllFlags (warfront-legacy-web-api-core)'
+2024-12-17 06:18:19.313 +05:00 [DBG] Connection id "0HN8U72K9E7VF" completed keep alive response.
+2024-12-17 06:18:19.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5262/api/flag - 200 null application/json; charset=utf-8 548.503ms
+2024-12-17 06:19:07.920 +05:00 [DBG] Connection id "0HN8U72K9E7VG" received FIN.
+2024-12-17 06:19:07.922 +05:00 [DBG] Connection id "0HN8U72K9E7VG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-17 06:19:07.923 +05:00 [DBG] Connection id "0HN8U72K9E7VG" disconnecting.
+2024-12-17 06:19:07.924 +05:00 [DBG] Connection id "0HN8U72K9E7VG" stopped.
+2024-12-17 06:20:29.656 +05:00 [DBG] Connection id "0HN8U72K9E7VF" disconnecting.
+2024-12-17 06:20:29.657 +05:00 [DBG] Connection id "0HN8U72K9E7VF" stopped.
+2024-12-17 06:20:29.657 +05:00 [DBG] Connection id "0HN8U72K9E7VF" sending FIN because: "The Socket transport's send loop completed gracefully."

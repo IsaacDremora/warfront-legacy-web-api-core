@@ -40,11 +40,17 @@ public class SessionController : ControllerBase
         return Ok(_session);
     }
 
-    // [HttpPut("{id}")]
-    // public async Task<ActionResult<Session>> PutSession(Session _session, int id)
-    // {
-
-    // }
+    [HttpPut("{id}")]
+    public async Task<ActionResult<Session>> PutSession(Session _session, int id)
+    {
+        var session = await _context.Sessions.FirstOrDefaultAsync(d=> d.id == id);
+        if (session is null) return NotFound();
+        session.sessionDateTime = _session.sessionDateTime;
+        session.loser = _session.loser;
+        session.winner = _session.winner;
+        await _context.SaveChangesAsync();
+        return Ok(_session);
+    }
 
     [HttpDelete("{id}")]
     public async Task<ActionResult<Session>> DeleteSession(int id)

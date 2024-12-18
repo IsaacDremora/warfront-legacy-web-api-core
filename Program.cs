@@ -44,7 +44,6 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Logging.AddSerilog();
 
-
 var app = builder.Build();
 
 app.UseForwardedHeaders();

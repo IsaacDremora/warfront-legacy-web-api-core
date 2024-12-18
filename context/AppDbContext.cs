@@ -6,7 +6,10 @@ public class AppDbContext : DbContext
     public DbSet<PlayerInformation> PlayerInf {get;set;}
     public DbSet<Session> Sessions {get;set;}
     public DbSet<Flag> Flags {get;set;}
+    public DbSet<SniperUnit> SniperUnits {get;set;}
     public DbSet<WarriorUnit> WarriorUnits {get;set;}
+    public DbSet<EngineerUnit> engUnits {get;set;}
+    public DbSet<BuilderUnit> bldUnits {get;set;}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
