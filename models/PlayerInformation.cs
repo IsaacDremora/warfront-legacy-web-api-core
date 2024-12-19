@@ -1,3 +1,5 @@
+using System.Diagnostics.CodeAnalysis;
+
 public class PlayerInformation
 {
     public int id {get;set;}
@@ -14,4 +16,9 @@ public class PlayerInformation
     public List<SniperUnit>? SniperUnitAttribute {get;set;}
     public List<EngineerUnit>? engUnitAttribute {get;set;}
     public List<BuilderUnit>? bldUnitAttribute {get;set;}
+}
+
+class FlagInit
+{
+    Flag _flag = new Flag();
 }

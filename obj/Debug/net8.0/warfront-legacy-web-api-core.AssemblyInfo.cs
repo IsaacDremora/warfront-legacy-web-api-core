@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("warfront-legacy-web-api-core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2540247bb8294f4d245c1fc0e6aa955314e9d55e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbaf97c0f1c056e6be9b99ff11834bec1640bcf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("warfront-legacy-web-api-core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("warfront-legacy-web-api-core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

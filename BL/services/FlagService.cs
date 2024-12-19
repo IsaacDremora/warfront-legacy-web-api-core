@@ -24,6 +24,7 @@ public class FlagService : IFlagService
         var user = await _context.PlayerInf.FirstOrDefaultAsync(d=> d.id == _pinfId);
         var flag = await _context.Flags.FirstOrDefaultAsync(x=>x.id == _flagId);
         if (user is null || flag is null) throw new Exception("user or flag is not found or invalid");
+        if(user.flagAttribute is null) throw new Exception("user dont contains any flag");
         if (user.flagAttribute.Contains(flag)!) throw new Exception("user dont contain this flag");
         user.flagAttribute.Remove(flag);
         await _context.SaveChangesAsync();

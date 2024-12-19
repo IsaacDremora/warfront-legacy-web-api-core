@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<AppDbContext>();
-
+builder.Services.AddTransient<IFlagService, FlagService>();
+builder.Services.AddTransient<IWarriorUnitService, WarriorUnitService>();
 builder.Services.AddSwaggerGen();
 
 string tableName = "logs";
