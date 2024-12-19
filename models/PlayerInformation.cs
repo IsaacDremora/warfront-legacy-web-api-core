@@ -9,9 +9,9 @@ public class PlayerInformation
     ///for linear progression
     */
     public int expCount {get;set;}
-    public IEnumerable<Flag>? flagAttribute {get;set;}
-    public IEnumerable<WarriorUnit>? warriorUnitAttribute {get;set;}
-    public IEnumerable<SniperUnit>? SniperUnitAttribute {get;set;}
-    public IEnumerable<EngineerUnit>? engUnitAttribute {get;set;}
-    public IEnumerable<BuilderUnit>? bldUnitAttribute {get;set;}
+    public List<Flag>? flagAttribute {get;set;}
+    public List<WarriorUnit>? warriorUnitAttribute {get;set;}
+    public List<SniperUnit>? SniperUnitAttribute {get;set;}
+    public List<EngineerUnit>? engUnitAttribute {get;set;}
+    public List<BuilderUnit>? bldUnitAttribute {get;set;}
 }
